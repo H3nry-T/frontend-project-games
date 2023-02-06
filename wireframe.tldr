@@ -3206,8 +3206,8 @@
       },
       "63444638-e30f-4914-3abe-dcf882b331d0": {
         "id": "63444638-e30f-4914-3abe-dcf882b331d0",
-        "name": "Page 4",
-        "childIndex": 4,
+        "name": "FrontEnd",
+        "childIndex": 0,
         "shapes": {
           "cb9434c4-f977-41e7-1af5-766cac07e0c2": {
             "id": "cb9434c4-f977-41e7-1af5-766cac07e0c2",
@@ -5649,6 +5649,28 @@
               "isFilled": false,
               "dash": "draw",
               "scale": 0.5505398022169692,
+              "font": "script",
+              "textAlign": "start"
+            }
+          },
+          "847671c6-6017-47d2-1c6c-561c0373272d": {
+            "id": "847671c6-6017-47d2-1c6c-561c0373272d",
+            "type": "text",
+            "name": "Text",
+            "parentId": "63444638-e30f-4914-3abe-dcf882b331d0",
+            "childIndex": 101,
+            "point": [
+              2094.06,
+              621.82
+            ],
+            "rotation": 0,
+            "text": "#cbcda6\n#bfbb9c\n#87897c\n#563942\n#433237",
+            "style": {
+              "color": "lightGray",
+              "size": "medium",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 2.08814891287145,
               "font": "script",
               "textAlign": "start"
             }
