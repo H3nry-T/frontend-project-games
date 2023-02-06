@@ -5664,13 +5664,123 @@
               621.82
             ],
             "rotation": 0,
-            "text": "#cbcda6\n#bfbb9c\n#87897c\n#563942\n#433237",
+            "text": "colors:\n#cbcda6\n#bfbb9c\n#87897c\n#563942\n#433237",
             "style": {
               "color": "lightGray",
               "size": "medium",
               "isFilled": false,
               "dash": "draw",
               "scale": 2.08814891287145,
+              "font": "script",
+              "textAlign": "start"
+            }
+          },
+          "00165e72-4022-4da4-12a8-6bd92194f5ca": {
+            "id": "00165e72-4022-4da4-12a8-6bd92194f5ca",
+            "type": "text",
+            "name": "Text",
+            "parentId": "63444638-e30f-4914-3abe-dcf882b331d0",
+            "childIndex": 102,
+            "point": [
+              6337.98,
+              859.15
+            ],
+            "rotation": 0,
+            "text": "FRONT END INTIAL GUIDE\n \n \n4. View a list of all reviews\n5. View an individual review\n6. View a list of comments associated with a review\n7. Vote on a review\n8. Post a new comment to an existing review\n9. View a separate page for each category with a list of related reviews\n10. Sort reviews\n11. Delete comments\n12. Error handling\n \n1. App Component: This is the root component that holds the main layout and manages the overall state of the application. This component should include the following state hooks:\n    * User: To hold the logged in user's information\n    * Reviews: To hold a list of all reviews\n    * Comments: To hold a list of comments for a selected review\n    * Categories: To hold a list of all categories\n    * Selected Review: To hold the currently selected review\n    * Selected Category: To hold the currently selected category\n    * SortBy: To hold the selected sort criteria\n    * Error: To hold any error messages that occur during API calls\n2. Routing: The application should use react-router for routing and have the following routes:\n    * /: This is the main route that displays a list of all reviews. The ReviewList component should be displayed here.\n    * /review/:review_id: This route displays an individual review. The Review component should be displayed here.\n    * /category/:category_name: This route displays a list of all reviews for a selected category. The ReviewList component should be displayed here.\n3. ReviewList Component: This component should display a list of all reviews and allow users to sort the list. The data for this component should be sourced from the App component's state.\n4. Review Component: This component should display an individual review and a list of comments associated with the review. The data for this component should be sourced from the App component's state.\n5. CommentList Component: This component should display a list of comments for a selected review. The data for this component should be sourced from the App component's state.\n6. Vote Component: This component should allow users to vote on a review. The API call to cast a vote should be made from the App component.\n7. NewComment Component: This component should allow users to post a new comment to a review. The API call to post a new comment should be made from the App component.\n8. Category Component: This component should display a list of all categories. The data for this component should be sourced from the App component's state.\n9. Error Component: This component should display any error messages that occur during API calls. The data for this component should be sourced from the App component's state.\n10. Sorting: Sorting should be implemented in the ReviewList component and should update the App component's state when a sort criteria is selected.\n11. Deletion: Deleting comments should be implemented in the CommentList component and should make the API call to delete the comment from the App component.\n12. Error handling: Error handling should be implemented in the App component and should display the error message in the Error component.\n ",
+            "style": {
+              "color": "lightGray",
+              "size": "medium",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 1,
+              "font": "script",
+              "textAlign": "start"
+            }
+          },
+          "81b28321-23e4-4466-3f50-98905e18084b": {
+            "id": "81b28321-23e4-4466-3f50-98905e18084b",
+            "type": "text",
+            "name": "Text",
+            "parentId": "63444638-e30f-4914-3abe-dcf882b331d0",
+            "childIndex": 1,
+            "point": [
+              4092.5,
+              1392.85
+            ],
+            "rotation": 0,
+            "text": "\"GET /api/reviews\": {",
+            "style": {
+              "color": "lightGray",
+              "size": "medium",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 1,
+              "font": "script",
+              "textAlign": "start"
+            }
+          },
+          "2cc21032-c964-47df-2f48-50ea00c2d104": {
+            "id": "2cc21032-c964-47df-2f48-50ea00c2d104",
+            "type": "text",
+            "name": "Text",
+            "parentId": "63444638-e30f-4914-3abe-dcf882b331d0",
+            "childIndex": 1,
+            "point": [
+              4482.34,
+              1450.57
+            ],
+            "rotation": 0,
+            "text": "\"GET /api/reviews/:review_id\": {",
+            "style": {
+              "color": "lightGray",
+              "size": "medium",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 1,
+              "font": "script",
+              "textAlign": "start"
+            }
+          },
+          "55e5571f-4e43-4da6-1d61-42b2fdc9c5ea": {
+            "id": "55e5571f-4e43-4da6-1d61-42b2fdc9c5ea",
+            "type": "text",
+            "name": "Text",
+            "parentId": "63444638-e30f-4914-3abe-dcf882b331d0",
+            "childIndex": 1,
+            "point": [
+              3890.48,
+              1902.5
+            ],
+            "rotation": 0,
+            "text": "\"GET /api/reviews?query=value\": {",
+            "style": {
+              "color": "lightGray",
+              "size": "medium",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 1,
+              "font": "script",
+              "textAlign": "start"
+            }
+          },
+          "46c61b05-8bec-46dc-364d-b34e4cebb55d": {
+            "id": "46c61b05-8bec-46dc-364d-b34e4cebb55d",
+            "type": "text",
+            "name": "Text",
+            "parentId": "63444638-e30f-4914-3abe-dcf882b331d0",
+            "childIndex": 1,
+            "point": [
+              3221.28,
+              2015.27
+            ],
+            "rotation": 0,
+            "text": "* Selected Category: To hold the currently selected category",
+            "style": {
+              "color": "lightGray",
+              "size": "medium",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 0.7452251946066697,
               "font": "script",
               "textAlign": "start"
             }
