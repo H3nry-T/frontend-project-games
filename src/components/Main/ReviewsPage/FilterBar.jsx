@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { getAllCategories } from "../../../utils/axios";
+import { getAllCategories } from "../../../utils/axiosAllReviews";
 import styles from "./ReviewsPage.module.css";
 
 export default function FilterBar({ allReviews }) {
