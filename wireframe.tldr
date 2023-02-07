@@ -5660,8 +5660,8 @@
             "parentId": "63444638-e30f-4914-3abe-dcf882b331d0",
             "childIndex": 101,
             "point": [
-              2094.06,
-              621.82
+              2048.08,
+              607.68
             ],
             "rotation": 0,
             "text": "colors:\n#cbcda6\n#bfbb9c\n#87897c\n#563942\n#433237",
@@ -5748,8 +5748,8 @@
             "parentId": "63444638-e30f-4914-3abe-dcf882b331d0",
             "childIndex": 1,
             "point": [
-              3890.48,
-              1902.5
+              3826.78,
+              3272.79
             ],
             "rotation": 0,
             "text": "\"GET /api/reviews?query=value\": {",
@@ -5781,6 +5781,234 @@
               "isFilled": false,
               "dash": "draw",
               "scale": 0.7452251946066697,
+              "font": "script",
+              "textAlign": "start"
+            }
+          },
+          "a1030fe6-b2c8-49bb-0cd0-5403fd28f6b1": {
+            "id": "a1030fe6-b2c8-49bb-0cd0-5403fd28f6b1",
+            "type": "rectangle",
+            "name": "Rectangle",
+            "parentId": "63444638-e30f-4914-3abe-dcf882b331d0",
+            "childIndex": 103,
+            "point": [
+              4918.88,
+              1913.24
+            ],
+            "size": [
+              304.09,
+              90.01
+            ],
+            "rotation": 0,
+            "style": {
+              "color": "lightGray",
+              "size": "medium",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 1,
+              "font": "script",
+              "textAlign": "start"
+            },
+            "label": "",
+            "labelPoint": [
+              0.5,
+              0.5
+            ]
+          },
+          "156b10cf-ce61-44b2-3a86-bc455ad7c231": {
+            "id": "156b10cf-ce61-44b2-3a86-bc455ad7c231",
+            "type": "text",
+            "name": "Text",
+            "parentId": "63444638-e30f-4914-3abe-dcf882b331d0",
+            "childIndex": 104,
+            "point": [
+              4973.8187057651085,
+              1933.0539228725038
+            ],
+            "rotation": 0,
+            "text": "ReviewAdder",
+            "style": {
+              "color": "lightGray",
+              "size": "medium",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 1,
+              "font": "script",
+              "textAlign": "start"
+            }
+          },
+          "de27fcf6-2d27-4f9b-0206-9ad3d6119131": {
+            "id": "de27fcf6-2d27-4f9b-0206-9ad3d6119131",
+            "type": "text",
+            "name": "Text",
+            "parentId": "63444638-e30f-4914-3abe-dcf882b331d0",
+            "childIndex": 105,
+            "point": [
+              3839.43,
+              2986.43
+            ],
+            "rotation": 0,
+            "text": "state for holding ALL the categories available",
+            "style": {
+              "color": "lightGray",
+              "size": "medium",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 0.8324840625050848,
+              "font": "script",
+              "textAlign": "start"
+            }
+          },
+          "a8cccc85-6589-4863-1a0f-95c00c34621d": {
+            "id": "a8cccc85-6589-4863-1a0f-95c00c34621d",
+            "type": "text",
+            "name": "Text",
+            "parentId": "63444638-e30f-4914-3abe-dcf882b331d0",
+            "childIndex": 107,
+            "point": [
+              3860.69,
+              2252.09
+            ],
+            "rotation": 0,
+            "text": "order: ASC/DESC",
+            "style": {
+              "color": "red",
+              "size": "medium",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 1,
+              "font": "script",
+              "textAlign": "start"
+            }
+          },
+          "aada9170-18e5-4dd3-1f7f-5fd31302aa48": {
+            "id": "aada9170-18e5-4dd3-1f7f-5fd31302aa48",
+            "type": "text",
+            "name": "Text",
+            "parentId": "63444638-e30f-4914-3abe-dcf882b331d0",
+            "childIndex": 108,
+            "point": [
+              3862.6,
+              2387.27
+            ],
+            "rotation": 0,
+            "text": "sort_by: \nowner, \ntitle, \nreview_id, \ncategory, \nreview_img_url,\n created_at, \nvotes, \ndesigner,\n comment_count",
+            "style": {
+              "color": "green",
+              "size": "medium",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 1,
+              "font": "script",
+              "textAlign": "start"
+            }
+          },
+          "ada243ee-9133-4967-0f7f-e9ae4fb1c15d": {
+            "id": "ada243ee-9133-4967-0f7f-e9ae4fb1c15d",
+            "type": "text",
+            "name": "Text",
+            "parentId": "63444638-e30f-4914-3abe-dcf882b331d0",
+            "childIndex": 110,
+            "point": [
+              3832.4,
+              3022.77
+            ],
+            "rotation": 0,
+            "text": "using react-router to do this: \ncategory=${selectedCategory}",
+            "style": {
+              "color": "orange",
+              "size": "medium",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 1,
+              "font": "script",
+              "textAlign": "start"
+            }
+          },
+          "a006ab16-552d-4c45-15c2-09b73efd6f51": {
+            "id": "a006ab16-552d-4c45-15c2-09b73efd6f51",
+            "type": "text",
+            "name": "Text",
+            "parentId": "63444638-e30f-4914-3abe-dcf882b331d0",
+            "childIndex": 111,
+            "point": [
+              3856.39,
+              2337.01
+            ],
+            "rotation": 0,
+            "text": "state for holding all sorting options",
+            "style": {
+              "color": "green",
+              "size": "medium",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 1,
+              "font": "script",
+              "textAlign": "start"
+            }
+          },
+          "00c5d787-1215-4937-09a7-c19bee4c60b7": {
+            "id": "00c5d787-1215-4937-09a7-c19bee4c60b7",
+            "type": "text",
+            "name": "Text",
+            "parentId": "63444638-e30f-4914-3abe-dcf882b331d0",
+            "childIndex": 112,
+            "point": [
+              3858.82,
+              2195.85
+            ],
+            "rotation": 0,
+            "text": "state for holding order option",
+            "style": {
+              "color": "red",
+              "size": "medium",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 1,
+              "font": "script",
+              "textAlign": "start"
+            }
+          },
+          "45c20e3b-a464-4116-3d63-2a955c8120d4": {
+            "id": "45c20e3b-a464-4116-3d63-2a955c8120d4",
+            "type": "text",
+            "name": "Text",
+            "parentId": "63444638-e30f-4914-3abe-dcf882b331d0",
+            "childIndex": 113,
+            "point": [
+              3812.95,
+              3197.23
+            ],
+            "rotation": 0,
+            "text": "finally, shove everything into this navigate link",
+            "style": {
+              "color": "lightGray",
+              "size": "medium",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 1,
+              "font": "script",
+              "textAlign": "start"
+            }
+          },
+          "fd74e962-ed8e-43a9-35d4-9b5ed4fe728c": {
+            "id": "fd74e962-ed8e-43a9-35d4-9b5ed4fe728c",
+            "type": "text",
+            "name": "Text",
+            "parentId": "63444638-e30f-4914-3abe-dcf882b331d0",
+            "childIndex": 1,
+            "point": [
+              3836.24,
+              2940.2
+            ],
+            "rotation": 0,
+            "text": "\"GET /api/categories\": {",
+            "style": {
+              "color": "lightGray",
+              "size": "medium",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 1,
               "font": "script",
               "textAlign": "start"
             }
