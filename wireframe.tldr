@@ -5660,8 +5660,8 @@
             "parentId": "63444638-e30f-4914-3abe-dcf882b331d0",
             "childIndex": 101,
             "point": [
-              2094.06,
-              621.82
+              2048.08,
+              607.68
             ],
             "rotation": 0,
             "text": "colors:\n#cbcda6\n#bfbb9c\n#87897c\n#563942\n#433237",
@@ -5781,6 +5781,58 @@
               "isFilled": false,
               "dash": "draw",
               "scale": 0.7452251946066697,
+              "font": "script",
+              "textAlign": "start"
+            }
+          },
+          "a1030fe6-b2c8-49bb-0cd0-5403fd28f6b1": {
+            "id": "a1030fe6-b2c8-49bb-0cd0-5403fd28f6b1",
+            "type": "rectangle",
+            "name": "Rectangle",
+            "parentId": "63444638-e30f-4914-3abe-dcf882b331d0",
+            "childIndex": 103,
+            "point": [
+              4918.88,
+              1913.24
+            ],
+            "size": [
+              304.09,
+              90.01
+            ],
+            "rotation": 0,
+            "style": {
+              "color": "lightGray",
+              "size": "medium",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 1,
+              "font": "script",
+              "textAlign": "start"
+            },
+            "label": "",
+            "labelPoint": [
+              0.5,
+              0.5
+            ]
+          },
+          "156b10cf-ce61-44b2-3a86-bc455ad7c231": {
+            "id": "156b10cf-ce61-44b2-3a86-bc455ad7c231",
+            "type": "text",
+            "name": "Text",
+            "parentId": "63444638-e30f-4914-3abe-dcf882b331d0",
+            "childIndex": 104,
+            "point": [
+              4973.8187057651085,
+              1933.0539228725038
+            ],
+            "rotation": 0,
+            "text": "ReviewAdder",
+            "style": {
+              "color": "lightGray",
+              "size": "medium",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 1,
               "font": "script",
               "textAlign": "start"
             }
