@@ -19,6 +19,7 @@
 
 .img {
   width: 4rem;
+  min-height: 0rem;
   height: 4rem;
   object-fit: cover;
   border-radius: 50%;
@@ -31,11 +32,21 @@
   padding: 1rem;
   margin: 1rem;
   background-color: #cbcda6;
-  border-radius: 1rem;
+  border-radius: 0 0 1rem 1rem;
+  box-shadow: 1px 1px 9px 1px black;
   transition: ease-in-out 400ms;
   translate: 0 -20px;
   opacity: 0%;
+  height: 90%;
 }
+
+.profile:hover {
+  transition: ease-in-out 400ms;
+  box-shadow: 1px 1px 9px 1px;
+  background-color: #433237;
+  color: white;
+}
+
 .header:hover .profile {
   transition: ease-in-out 400ms;
   translate: 0 -5px;

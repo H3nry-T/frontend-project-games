@@ -5748,8 +5748,8 @@
             "parentId": "63444638-e30f-4914-3abe-dcf882b331d0",
             "childIndex": 1,
             "point": [
-              3829.8,
-              3181.53
+              3826.78,
+              3272.79
             ],
             "rotation": 0,
             "text": "\"GET /api/reviews?query=value\": {",
@@ -5844,8 +5844,8 @@
             "parentId": "63444638-e30f-4914-3abe-dcf882b331d0",
             "childIndex": 105,
             "point": [
-              3851.08,
-              2912.57
+              3839.43,
+              2986.43
             ],
             "rotation": 0,
             "text": "state for holding ALL the categories available",
@@ -5910,8 +5910,8 @@
             "parentId": "63444638-e30f-4914-3abe-dcf882b331d0",
             "childIndex": 110,
             "point": [
-              3844.05,
-              2948.91
+              3832.4,
+              3022.77
             ],
             "rotation": 0,
             "text": "using react-router to do this: \ncategory=${selectedCategory}",
@@ -5976,11 +5976,33 @@
             "parentId": "63444638-e30f-4914-3abe-dcf882b331d0",
             "childIndex": 113,
             "point": [
-              3815.97,
-              3105.97
+              3812.95,
+              3197.23
             ],
             "rotation": 0,
             "text": "finally, shove everything into this navigate link",
+            "style": {
+              "color": "lightGray",
+              "size": "medium",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 1,
+              "font": "script",
+              "textAlign": "start"
+            }
+          },
+          "fd74e962-ed8e-43a9-35d4-9b5ed4fe728c": {
+            "id": "fd74e962-ed8e-43a9-35d4-9b5ed4fe728c",
+            "type": "text",
+            "name": "Text",
+            "parentId": "63444638-e30f-4914-3abe-dcf882b331d0",
+            "childIndex": 1,
+            "point": [
+              3836.24,
+              2940.2
+            ],
+            "rotation": 0,
+            "text": "\"GET /api/categories\": {",
             "style": {
               "color": "lightGray",
               "size": "medium",
