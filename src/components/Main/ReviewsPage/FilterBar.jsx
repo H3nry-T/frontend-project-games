@@ -6,7 +6,6 @@ export default function FilterBar({ allReviews }) {
   const [allCategoryOptions, setAllCategoryOptions] = useState([]);
   const [allOrderOptions] = useState(["Ascending", "Descending"]);
   const [allSortByOptions, setAllSortByOptions] = useState(["owner"]);
-  const [loading, setLoading] = useState(true);
 
   useEffect(() => {
     getAllCategories().then((categoriesFromApi) => {
@@ -18,7 +17,6 @@ export default function FilterBar({ allReviews }) {
   useEffect(() => {
     const columnNames = Object.keys(allReviews[0]);
     setAllSortByOptions(columnNames);
-    setLoading(false);
   }, [allReviews]);
 
   return (
