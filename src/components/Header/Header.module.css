@@ -45,6 +45,7 @@
   box-shadow: 1px 1px 9px 1px;
   background-color: #433237;
   color: white;
+  cursor: pointer;
 }
 
 .header:hover .profile {
