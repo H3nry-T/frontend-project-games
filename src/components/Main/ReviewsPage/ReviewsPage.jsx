@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { getAllReviews } from "../../../utils/axios";
+import FilterBar from "./FilterBar";
 import ReviewCard from "./ReviewCard";
 import styles from "./ReviewsPage.module.css";
 
@@ -15,9 +16,7 @@ const ReviewsPage = () => {
   return (
     <>
       <section className={styles.allReviewContainer}>
-        <aside className={styles.reviewFilterAside}>
-          <h2>filter bar goes here</h2>
-        </aside>
+        <FilterBar></FilterBar>
         <aside className={styles.reviewListAside}>
           {allReviews.map((reviewObj) => {
             return (

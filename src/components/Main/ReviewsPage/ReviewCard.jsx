@@ -1,12 +1,12 @@
+import React from "react";
 import { useNavigate } from "react-router-dom";
-import { ApiRequest } from "../../../utils/axios";
 import styles from "./ReviewsPage.module.css";
 
 export default function ReviewCard({ reviewObj }) {
   const date = new Date(Date.parse(reviewObj.created_at));
   const navigate = useNavigate();
   const handleOnClick = () => {
-    navigate("/reviews/:review_id");
+    navigate(`/reviews/${reviewObj.review_id}`);
   };
   return (
     <div className={styles.reviewCard} onClick={handleOnClick}>
@@ -14,6 +14,7 @@ export default function ReviewCard({ reviewObj }) {
         src={reviewObj.review_img_url}
         className={styles.reviewImg}
         draggable="false"
+        alt="board game"
       ></img>
       <p className={styles.strong}>{reviewObj.title}</p>
       <p>{reviewObj.category} game</p>
