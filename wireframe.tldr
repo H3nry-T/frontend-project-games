@@ -4830,12 +4830,12 @@
             "parentId": "63444638-e30f-4914-3abe-dcf882b331d0",
             "childIndex": 67,
             "point": [
-              1002.6,
-              2251.97
+              3746.98,
+              3499.57
             ],
             "size": [
-              1394.75,
-              1251.21
+              986.2,
+              854.3
             ],
             "rotation": 0,
             "style": {
@@ -4860,8 +4860,8 @@
             "parentId": "63444638-e30f-4914-3abe-dcf882b331d0",
             "childIndex": 68,
             "point": [
-              1663.36,
-              2090.43
+              4214.19,
+              3389.28
             ],
             "rotation": 0,
             "text": "app",
@@ -4870,7 +4870,7 @@
               "size": "large",
               "isFilled": false,
               "dash": "draw",
-              "scale": 0.6815146898220698,
+              "scale": 0.46532180173766646,
               "font": "script",
               "textAlign": "start"
             }
@@ -4882,12 +4882,12 @@
             "parentId": "63444638-e30f-4914-3abe-dcf882b331d0",
             "childIndex": 69,
             "point": [
-              1056.12,
-              2294.47
+              3801.95,
+              3528.59
             ],
             "size": [
-              1291.99,
-              301.98
+              882.14,
+              206.18
             ],
             "rotation": 0.0017430340763384677,
             "style": {
@@ -4912,8 +4912,8 @@
             "parentId": "63444638-e30f-4914-3abe-dcf882b331d0",
             "childIndex": 70,
             "point": [
-              1087.58,
-              2303.27
+              3807.07,
+              3534.6
             ],
             "rotation": 0,
             "text": "Header",
@@ -4922,7 +4922,7 @@
               "size": "medium",
               "isFilled": false,
               "dash": "draw",
-              "scale": 1.3066132403168396,
+              "scale": 0.8921240235001511,
               "font": "script",
               "textAlign": "start"
             }
@@ -4934,12 +4934,12 @@
             "parentId": "63444638-e30f-4914-3abe-dcf882b331d0",
             "childIndex": 71,
             "point": [
-              1086.53,
-              2470.94
+              3806.33,
+              3649.08
             ],
             "size": [
-              1235.64,
-              89.32
+              873.7,
+              60.99
             ],
             "rotation": 0,
             "style": {
@@ -4964,8 +4964,8 @@
             "parentId": "63444638-e30f-4914-3abe-dcf882b331d0",
             "childIndex": 72,
             "point": [
-              1134.55,
-              2482.46
+              3840.28,
+              3656.95
             ],
             "rotation": 0,
             "text": "NavBar",
@@ -4974,7 +4974,7 @@
               "size": "medium",
               "isFilled": false,
               "dash": "draw",
-              "scale": 1.3066132403168396,
+              "scale": 0.8921240235001511,
               "font": "script",
               "textAlign": "start"
             }
@@ -4986,12 +4986,12 @@
             "parentId": "63444638-e30f-4914-3abe-dcf882b331d0",
             "childIndex": 73,
             "point": [
-              1041.64,
-              2611.52
+              3774.58,
+              3745.07
             ],
             "size": [
-              1325.39,
-              865.77
+              937.16,
+              591.13
             ],
             "rotation": 0,
             "style": {
@@ -5016,8 +5016,8 @@
             "parentId": "63444638-e30f-4914-3abe-dcf882b331d0",
             "childIndex": 75,
             "point": [
-              1605.05,
-              2490.23
+              4172.96,
+              3662.26
             ],
             "rotation": 0,
             "text": "ReviewPage",
@@ -5026,7 +5026,7 @@
               "size": "medium",
               "isFilled": false,
               "dash": "draw",
-              "scale": 1,
+              "scale": 0.6827758941764747,
               "font": "script",
               "textAlign": "start"
             }
@@ -5038,8 +5038,8 @@
             "parentId": "63444638-e30f-4914-3abe-dcf882b331d0",
             "childIndex": 76,
             "point": [
-              2056.29,
-              2485.22
+              4492.03,
+              3658.83
             ],
             "rotation": 0,
             "text": "ProfilePage",
@@ -5048,7 +5048,7 @@
               "size": "medium",
               "isFilled": false,
               "dash": "draw",
-              "scale": 1,
+              "scale": 0.6827758941764747,
               "font": "script",
               "textAlign": "start"
             }
@@ -5060,8 +5060,8 @@
             "parentId": "63444638-e30f-4914-3abe-dcf882b331d0",
             "childIndex": 77,
             "point": [
-              1100.93,
-              2621.94
+              3816.51,
+              3752.18
             ],
             "rotation": 0,
             "text": "main",
@@ -5070,7 +5070,7 @@
               "size": "medium",
               "isFilled": false,
               "dash": "draw",
-              "scale": 1.5413065532472447,
+              "scale": 1.0523669600934478,
               "font": "script",
               "textAlign": "start"
             }
@@ -5082,12 +5082,12 @@
             "parentId": "63444638-e30f-4914-3abe-dcf882b331d0",
             "childIndex": 79,
             "point": [
-              1138.6,
-              2770.04
+              4182.51,
+              3871.58
             ],
             "size": [
-              1150.18,
-              216.23
+              443.47,
+              164.34
             ],
             "rotation": 0,
             "style": {
@@ -5112,8 +5112,8 @@
             "parentId": "63444638-e30f-4914-3abe-dcf882b331d0",
             "childIndex": 80,
             "point": [
-              1184.4802160091376,
-              2800.0738029544964
+              4199.213294160619,
+              3892.415690687364
             ],
             "rotation": 0,
             "text": "ReviewCard",
@@ -5122,7 +5122,7 @@
               "size": "medium",
               "isFilled": false,
               "dash": "draw",
-              "scale": 1,
+              "scale": 0.3723107633495016,
               "font": "script",
               "textAlign": "start"
             }
@@ -5134,12 +5134,12 @@
             "parentId": "63444638-e30f-4914-3abe-dcf882b331d0",
             "childIndex": 81,
             "point": [
-              1146.58,
-              3066.11
+              4184.6,
+              4094.6
             ],
             "size": [
-              1150.18,
-              216.23
+              443.47,
+              164.34
             ],
             "rotation": 0,
             "style": {
@@ -5164,8 +5164,8 @@
             "parentId": "63444638-e30f-4914-3abe-dcf882b331d0",
             "childIndex": 82,
             "point": [
-              1192.46,
-              3096.14
+              4202.288029901629,
+              4117.436123406271
             ],
             "rotation": 0,
             "text": "ReviewCard",
@@ -5174,7 +5174,7 @@
               "size": "medium",
               "isFilled": false,
               "dash": "draw",
-              "scale": 1,
+              "scale": 0.3723107633495016,
               "font": "script",
               "textAlign": "start"
             }
@@ -5186,12 +5186,12 @@
             "parentId": "63444638-e30f-4914-3abe-dcf882b331d0",
             "childIndex": 83,
             "point": [
-              -735.9,
-              2236.16
+              4761.52,
+              2212.12
             ],
             "size": [
-              1394.75,
-              1251.21
+              806.28,
+              824.22
             ],
             "rotation": 0,
             "style": {
@@ -5216,8 +5216,8 @@
             "parentId": "63444638-e30f-4914-3abe-dcf882b331d0",
             "childIndex": 84,
             "point": [
-              -75.14,
-              2074.62
+              5143.494582723882,
+              2105.71
             ],
             "rotation": 0,
             "text": "app",
@@ -5226,7 +5226,7 @@
               "size": "large",
               "isFilled": false,
               "dash": "draw",
-              "scale": 0.6815146898220698,
+              "scale": 0.39397253051785924,
               "font": "script",
               "textAlign": "start"
             }
@@ -5238,12 +5238,12 @@
             "parentId": "63444638-e30f-4914-3abe-dcf882b331d0",
             "childIndex": 85,
             "point": [
-              -682.38,
-              2278.66
+              4792.46,
+              2248.19
             ],
             "size": [
-              1291.99,
-              301.98
+              746.88,
+              174.57
             ],
             "rotation": 0.0017430340763384677,
             "style": {
@@ -5268,8 +5268,8 @@
             "parentId": "63444638-e30f-4914-3abe-dcf882b331d0",
             "childIndex": 86,
             "point": [
-              -650.92,
-              2287.46
+              4810.645552454561,
+              2245.9152147128016
             ],
             "rotation": 0,
             "text": "Header",
@@ -5278,7 +5278,7 @@
               "size": "medium",
               "isFilled": false,
               "dash": "draw",
-              "scale": 1.3066132403168396,
+              "scale": 0.7553318107202669,
               "font": "script",
               "textAlign": "start"
             }
@@ -5290,12 +5290,12 @@
             "parentId": "63444638-e30f-4914-3abe-dcf882b331d0",
             "childIndex": 87,
             "point": [
-              -651.97,
-              2455.13
+              4810.04,
+              2356.37
             ],
             "size": [
-              1235.64,
-              89.32
+              714.3,
+              58.84
             ],
             "rotation": 0,
             "style": {
@@ -5320,8 +5320,8 @@
             "parentId": "63444638-e30f-4914-3abe-dcf882b331d0",
             "childIndex": 88,
             "point": [
-              -603.95,
-              2466.65
+              4837.79814363826,
+              2363.9539876144504
             ],
             "rotation": 0,
             "text": "NavBar",
@@ -5330,7 +5330,7 @@
               "size": "medium",
               "isFilled": false,
               "dash": "draw",
-              "scale": 1.3066132403168396,
+              "scale": 0.7553318107202669,
               "font": "script",
               "textAlign": "start"
             }
@@ -5342,12 +5342,12 @@
             "parentId": "63444638-e30f-4914-3abe-dcf882b331d0",
             "childIndex": 89,
             "point": [
-              -696.86,
-              2595.71
+              4784.09,
+              2448.97
             ],
             "size": [
-              1325.39,
-              865.77
+              766.19,
+              570.31
             ],
             "rotation": 0,
             "style": {
@@ -5372,8 +5372,8 @@
             "parentId": "63444638-e30f-4914-3abe-dcf882b331d0",
             "childIndex": 90,
             "point": [
-              -133.45,
-              2474.42
+              5109.786522431749,
+              2369.0723606567285
             ],
             "rotation": 0,
             "text": "ReviewPage",
@@ -5382,7 +5382,7 @@
               "size": "medium",
               "isFilled": false,
               "dash": "draw",
-              "scale": 1,
+              "scale": 0.5780836956290961,
               "font": "script",
               "textAlign": "start"
             }
@@ -5394,8 +5394,8 @@
             "parentId": "63444638-e30f-4914-3abe-dcf882b331d0",
             "childIndex": 91,
             "point": [
-              317.79,
-              2469.41
+              5370.6410092474225,
+              2365.7720969576535
             ],
             "rotation": 0,
             "text": "ProfilePage",
@@ -5404,7 +5404,7 @@
               "size": "medium",
               "isFilled": false,
               "dash": "draw",
-              "scale": 1,
+              "scale": 0.5780836956290961,
               "font": "script",
               "textAlign": "start"
             }
@@ -5416,8 +5416,8 @@
             "parentId": "63444638-e30f-4914-3abe-dcf882b331d0",
             "childIndex": 92,
             "point": [
-              -637.57,
-              2606.13
+              4818.362969791209,
+              2455.8343829731307
             ],
             "rotation": 0,
             "text": "main",
@@ -5426,7 +5426,7 @@
               "size": "medium",
               "isFilled": false,
               "dash": "draw",
-              "scale": 1.5413065532472447,
+              "scale": 0.8910041883985115,
               "font": "script",
               "textAlign": "start"
             }
@@ -5438,12 +5438,12 @@
             "parentId": "63444638-e30f-4914-3abe-dcf882b331d0",
             "childIndex": 93,
             "point": [
-              -629.8,
-              2746.56
+              4822.85,
+              2548.34
             ],
             "size": [
-              1202.99,
-              648.29
+              695.43,
+              427.05
             ],
             "rotation": 0,
             "style": {
@@ -5468,8 +5468,8 @@
             "parentId": "63444638-e30f-4914-3abe-dcf882b331d0",
             "childIndex": 94,
             "point": [
-              -534.3343522276025,
-              2799.193459604743
+              4878.038549691,
+              2583.009814059644
             ],
             "rotation": 0,
             "text": "SingleReview",
@@ -5478,7 +5478,7 @@
               "size": "medium",
               "isFilled": false,
               "dash": "draw",
-              "scale": 1,
+              "scale": 0.5780836956290961,
               "font": "script",
               "textAlign": "start"
             }
@@ -5785,58 +5785,6 @@
               "textAlign": "start"
             }
           },
-          "a1030fe6-b2c8-49bb-0cd0-5403fd28f6b1": {
-            "id": "a1030fe6-b2c8-49bb-0cd0-5403fd28f6b1",
-            "type": "rectangle",
-            "name": "Rectangle",
-            "parentId": "63444638-e30f-4914-3abe-dcf882b331d0",
-            "childIndex": 103,
-            "point": [
-              4918.88,
-              1913.24
-            ],
-            "size": [
-              304.09,
-              90.01
-            ],
-            "rotation": 0,
-            "style": {
-              "color": "lightGray",
-              "size": "medium",
-              "isFilled": false,
-              "dash": "draw",
-              "scale": 1,
-              "font": "script",
-              "textAlign": "start"
-            },
-            "label": "",
-            "labelPoint": [
-              0.5,
-              0.5
-            ]
-          },
-          "156b10cf-ce61-44b2-3a86-bc455ad7c231": {
-            "id": "156b10cf-ce61-44b2-3a86-bc455ad7c231",
-            "type": "text",
-            "name": "Text",
-            "parentId": "63444638-e30f-4914-3abe-dcf882b331d0",
-            "childIndex": 104,
-            "point": [
-              4973.8187057651085,
-              1933.0539228725038
-            ],
-            "rotation": 0,
-            "text": "ReviewAdder",
-            "style": {
-              "color": "lightGray",
-              "size": "medium",
-              "isFilled": false,
-              "dash": "draw",
-              "scale": 1,
-              "font": "script",
-              "textAlign": "start"
-            }
-          },
           "de27fcf6-2d27-4f9b-0206-9ad3d6119131": {
             "id": "de27fcf6-2d27-4f9b-0206-9ad3d6119131",
             "type": "text",
@@ -6009,6 +5957,238 @@
               "isFilled": false,
               "dash": "draw",
               "scale": 1,
+              "font": "script",
+              "textAlign": "start"
+            }
+          },
+          "b2c015a5-77bc-488a-1476-e3205fb83086": {
+            "id": "b2c015a5-77bc-488a-1476-e3205fb83086",
+            "type": "rectangle",
+            "name": "Rectangle",
+            "parentId": "63444638-e30f-4914-3abe-dcf882b331d0",
+            "childIndex": 114,
+            "point": [
+              3812.41,
+              3864.5
+            ],
+            "size": [
+              287.76,
+              420.54
+            ],
+            "rotation": 0,
+            "style": {
+              "color": "lightGray",
+              "size": "medium",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 1,
+              "font": "script",
+              "textAlign": "start"
+            },
+            "label": "",
+            "labelPoint": [
+              0.5,
+              0.5
+            ]
+          },
+          "519f1a97-32b4-44f9-050b-0e899e7474ec": {
+            "id": "519f1a97-32b4-44f9-050b-0e899e7474ec",
+            "type": "ellipse",
+            "name": "Ellipse",
+            "parentId": "63444638-e30f-4914-3abe-dcf882b331d0",
+            "childIndex": 115,
+            "point": [
+              3839.39,
+              3926.68
+            ],
+            "radius": [
+              37.764092783688056,
+              37.52044670225291
+            ],
+            "rotation": 0,
+            "style": {
+              "color": "lightGray",
+              "size": "medium",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 1,
+              "font": "script",
+              "textAlign": "start"
+            },
+            "label": "",
+            "labelPoint": [
+              0.5,
+              0.5
+            ]
+          },
+          "40481d0c-952f-4b8a-0c7a-d59a231d1d39": {
+            "id": "40481d0c-952f-4b8a-0c7a-d59a231d1d39",
+            "type": "ellipse",
+            "name": "Ellipse",
+            "parentId": "63444638-e30f-4914-3abe-dcf882b331d0",
+            "childIndex": 116,
+            "point": [
+              3960.54,
+              3920.46
+            ],
+            "radius": [
+              38.448051881871606,
+              39.503928086985525
+            ],
+            "rotation": 0,
+            "style": {
+              "color": "lightGray",
+              "size": "medium",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 1,
+              "font": "script",
+              "textAlign": "start"
+            },
+            "label": "",
+            "labelPoint": [
+              0.5,
+              0.5
+            ]
+          },
+          "e287a0bb-6132-4be4-005d-665c78742874": {
+            "id": "e287a0bb-6132-4be4-005d-665c78742874",
+            "type": "ellipse",
+            "name": "Ellipse",
+            "parentId": "63444638-e30f-4914-3abe-dcf882b331d0",
+            "childIndex": 117,
+            "point": [
+              3838.11,
+              4023.39
+            ],
+            "radius": [
+              38.448051881871606,
+              39.503928086985525
+            ],
+            "rotation": 0,
+            "style": {
+              "color": "lightGray",
+              "size": "medium",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 1,
+              "font": "script",
+              "textAlign": "start"
+            },
+            "label": "",
+            "labelPoint": [
+              0.5,
+              0.5
+            ]
+          },
+          "6a49324e-691c-4352-3f3f-09dc2bcf4d0f": {
+            "id": "6a49324e-691c-4352-3f3f-09dc2bcf4d0f",
+            "type": "ellipse",
+            "name": "Ellipse",
+            "parentId": "63444638-e30f-4914-3abe-dcf882b331d0",
+            "childIndex": 118,
+            "point": [
+              3957.78,
+              4020.92
+            ],
+            "radius": [
+              38.448051881871606,
+              39.503928086985525
+            ],
+            "rotation": 0,
+            "style": {
+              "color": "lightGray",
+              "size": "medium",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 1,
+              "font": "script",
+              "textAlign": "start"
+            },
+            "label": "",
+            "labelPoint": [
+              0.5,
+              0.5
+            ]
+          },
+          "413d5587-cbbd-463f-0bae-1a657a5e2aa0": {
+            "id": "413d5587-cbbd-463f-0bae-1a657a5e2aa0",
+            "type": "ellipse",
+            "name": "Ellipse",
+            "parentId": "63444638-e30f-4914-3abe-dcf882b331d0",
+            "childIndex": 119,
+            "point": [
+              3843.22,
+              4146.91
+            ],
+            "radius": [
+              38.448051881871606,
+              39.503928086985525
+            ],
+            "rotation": 0,
+            "style": {
+              "color": "lightGray",
+              "size": "medium",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 1,
+              "font": "script",
+              "textAlign": "start"
+            },
+            "label": "",
+            "labelPoint": [
+              0.5,
+              0.5
+            ]
+          },
+          "25986492-e218-4484-1df3-3b60a3055781": {
+            "id": "25986492-e218-4484-1df3-3b60a3055781",
+            "type": "ellipse",
+            "name": "Ellipse",
+            "parentId": "63444638-e30f-4914-3abe-dcf882b331d0",
+            "childIndex": 120,
+            "point": [
+              3971.62,
+              4140.19
+            ],
+            "radius": [
+              38.448051881871606,
+              39.503928086985525
+            ],
+            "rotation": 0,
+            "style": {
+              "color": "lightGray",
+              "size": "medium",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 1,
+              "font": "script",
+              "textAlign": "start"
+            },
+            "label": "",
+            "labelPoint": [
+              0.5,
+              0.5
+            ]
+          },
+          "790395c5-ee50-4a40-31ea-4dbe0fcfe169": {
+            "id": "790395c5-ee50-4a40-31ea-4dbe0fcfe169",
+            "type": "text",
+            "name": "Text",
+            "parentId": "63444638-e30f-4914-3abe-dcf882b331d0",
+            "childIndex": 121,
+            "point": [
+              3848.02,
+              3871.87
+            ],
+            "rotation": 0,
+            "text": "filter bar",
+            "style": {
+              "color": "lightGray",
+              "size": "medium",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 0.7869892089643536,
               "font": "script",
               "textAlign": "start"
             }
