@@ -25,7 +25,7 @@
   margin: 0 0 1rem 1rem;
   padding: 1rem;
   color: white;
-  box-shadow: 0px 1px 9px 1px black;
+  box-shadow: 0px 1px 9px 2px black;
 
   display: flex;
   justify-content: space-evenly;
@@ -47,4 +47,30 @@
   width: 120px;
   height: 120px;
   object-fit: contain;
+}
+
+.reviewFilterButton {
+  transition: ease-in-out 400ms;
+  background-color: #87897c;
+  color: white;
+  margin: 0.5rem;
+  box-shadow: 1px 1px 3px 0px black;
+}
+
+.reviewFilterButton:hover {
+  transition: ease-in-out 400ms;
+  box-shadow: 0px 1px 9px 1px black;
+  background-color: #433237;
+  scale: calc(1.05);
+}
+
+.highlight {
+  background-color: #563942;
+  border-radius: 2rem 2rem 0 0;
+  color: rgb(234, 234, 234);
+}
+
+.loading {
+  text-align: center;
+  font-weight: 1000;
 }

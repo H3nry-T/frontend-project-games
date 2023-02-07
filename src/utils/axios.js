@@ -9,3 +9,9 @@ export const getAllReviews = () => {
     return response.data.reviews;
   });
 };
+
+export const getAllCategories = () => {
+  return ApiRequest.get("/categories").then(({ data: { categories } }) => {
+    return categories.map((categoryObj) => categoryObj.slug); //["strategy", "hidden-roles", "dexterity", "push-your-luck", "roll-and-write", "deck-building", "engine-building"]
+  });
+};
