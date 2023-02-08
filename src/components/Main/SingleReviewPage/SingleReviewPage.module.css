@@ -9,6 +9,17 @@
   color: white;
   box-shadow: 0px 1px 9px 2px black;
 }
+.commentsSection {
+  transition: ease-in-out 400ms;
+  max-width: 80%;
+  max-width: 700px;
+  border-radius: 2rem;
+  background-color: #565a5b;
+  margin: 1rem auto;
+  padding: 1rem;
+  color: white;
+  box-shadow: 0px 1px 9px 2px black;
+}
 
 .reviewImg {
   width: 120px;
@@ -52,5 +63,9 @@
   cursor: pointer;
   background-color: #563942;
   box-shadow: 0px 1px 9px 1px black;
-  scale: calc(1.1);
+  scale: calc(1.05);
+}
+
+.commentCard {
+  background-color: #547166;
 }

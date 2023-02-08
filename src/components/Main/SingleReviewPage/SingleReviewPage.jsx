@@ -3,7 +3,7 @@ import { useParams } from "react-router-dom";
 import { getReviewById } from "../../../utils/axiosSingleReview";
 import CommentsSection from "./CommentsSection";
 import SingleReviewCard from "./SingleReviewCard";
-import styles from "./SingleReviewPage.module.css";
+
 
 const SingleReviewPage = () => {
   const [singleReview, setSingleReview] = useState({});
@@ -23,7 +23,7 @@ const SingleReviewPage = () => {
   return (
     <>
     <SingleReviewCard singleReview={singleReview} date={date}/>
-    <CommentsSection/>
+    <CommentsSection review_id={review_id}/>
     </>
   );
 };
