@@ -53,3 +53,14 @@
   translate: 0 -5px;
   opacity: 100%;
 }
+
+h1 {
+  padding: 1rem; 
+  transition: ease-in-out 400ms;
+}
+
+h1:hover {
+  transition: ease-in-out 400ms;
+  cursor:pointer;
+  scale:calc(1.1); 
+}
