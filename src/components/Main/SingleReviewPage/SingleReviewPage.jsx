@@ -1,8 +1,8 @@
 import React, { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 import { getReviewById } from "../../../utils/axiosSingleReview";
-import CommentsSection from "./CommentsSection";
-import SingleReviewCard from "./SingleReviewCard";
+import CommentsSection from "./CommentsSection/CommentsSection";
+import SingleReviewCard from "./SingleReviewCard/SingleReviewCard";
 
 const SingleReviewPage = () => {
   const [singleReview, setSingleReview] = useState({});

@@ -1,5 +1,12 @@
 # GET https://nc-games-9h15.onrender.com/api HTTP/1.1
 # GET https://nc-games-9h15.onrender.com/api/reviews?category=strategy&order=DESC&sort_by=votes HTTP/1.1
 # GET https://nc-games-9h15.onrender.com/api/reviews/21 HTTP/1.1
-GET https://nc-games-9h15.onrender.com/api/reviews/21/comments HTTP/1.1
+# GET https://nc-games-9h15.onrender.com/api/reviews/21/comments HTTP/1.1
+# GET https://nc-games-9h15.onrender.com/api/reviews/18/ HTTP/1.1
 
+PATCH https://nc-games-9h15.onrender.com/api/reviews/18/ HTTP/1.1
+Content-Type: application/json
+
+{
+    "incVotes": 1
+}
