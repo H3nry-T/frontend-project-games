@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import { getAllReviews } from "../../../utils/axios";
+import { getAllReviews } from "../../../utils/axiosAllReviews";
 import FilterBar from "./FilterBar";
 import ReviewCard from "./ReviewCard";
 import styles from "./ReviewsPage.module.css";
