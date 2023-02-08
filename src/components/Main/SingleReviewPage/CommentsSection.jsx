@@ -19,25 +19,25 @@ const CommentsSection = ({ review_id, singleReview }) => {
         {commentsByReviewId.map((commentObj) => {
           return (
             <article key={commentObj.comment_id} className={styles.commentCard}>
-              <p>{commentObj.author}'s comment</p>
-              <p>{commentObj.body}</p>
-              <p>{commentObj.created_at}</p>
+              <div
+                className={`${styles.flexContainer} ${styles.spaceBetween} ${styles.commentHeader}`}
+                style={{ marginBottom: "1rem", backgroundColor: "#bfbb9c" }}
+              >
+                <span>{commentObj.author}'s comment</span>{" "}
+                <span>at {commentObj.created_at}</span>
+              </div>
+              <p className={`${styles.textLeft} ${styles.commentBody}`}>
+                {commentObj.body}
+              </p>
               <div
                 className={`${styles.flexContainer} ${styles.justifyContentCenter}`}
               >
                 <div className={styles.smallWrapper}>
-                  <button>-</button>
-                  <span>{commentObj.votes}</span>
-                  <button>+</button>
+                  <button className={styles.singleReviewPageButton}>-</button>
+                  <span>{commentObj.votes} votes</span>
+                  <button className={styles.singleReviewPageButton}>+</button>
                 </div>
               </div>
-              <p
-                onClick={(e) => {
-                  console.log(e.target);
-                }}
-              >
-                {commentObj.comment_id}
-              </p>
             </article>
           );
         })}

@@ -29,9 +29,9 @@ const SingleReviewCard = ({ singleReview, date }) => {
           className={`${styles.flexContainer} ${styles.justifyContentCenter}`}
         >
           <div className={styles.smallWrapper}>
-            <button>-</button>
+            <button className={styles.singleReviewPageButton}>-</button>
             <span>{singleReview.votes} votes</span>
-            <button>+</button>
+            <button className={styles.singleReviewPageButton}>+</button>
           </div>
         </div>
       </article>
