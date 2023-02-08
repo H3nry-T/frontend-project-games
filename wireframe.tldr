@@ -5725,8 +5725,8 @@
             "parentId": "63444638-e30f-4914-3abe-dcf882b331d0",
             "childIndex": 1,
             "point": [
-              3826.78,
-              3272.79
+              3932.81,
+              3069.12
             ],
             "rotation": 0,
             "text": "\"GET /api/reviews?query=value\": {",
@@ -5735,7 +5735,7 @@
               "size": "medium",
               "isFilled": false,
               "dash": "draw",
-              "scale": 1,
+              "scale": 0.7347091894872225,
               "font": "script",
               "textAlign": "start"
             }
@@ -5769,8 +5769,8 @@
             "parentId": "63444638-e30f-4914-3abe-dcf882b331d0",
             "childIndex": 105,
             "point": [
-              3839.43,
-              2986.43
+              3942.1,
+              2858.72
             ],
             "rotation": 0,
             "text": "state for holding ALL the categories available",
@@ -5779,7 +5779,7 @@
               "size": "medium",
               "isFilled": false,
               "dash": "draw",
-              "scale": 0.8324840625050848,
+              "scale": 0.6116336908241411,
               "font": "script",
               "textAlign": "start"
             }
@@ -5791,8 +5791,8 @@
             "parentId": "63444638-e30f-4914-3abe-dcf882b331d0",
             "childIndex": 107,
             "point": [
-              3860.69,
-              2252.09
+              3950.69,
+              2304.83
             ],
             "rotation": 0,
             "text": "order: ASC/DESC",
@@ -5801,7 +5801,7 @@
               "size": "medium",
               "isFilled": false,
               "dash": "draw",
-              "scale": 1,
+              "scale": 0.7435056042279287,
               "font": "script",
               "textAlign": "start"
             }
@@ -5813,8 +5813,8 @@
             "parentId": "63444638-e30f-4914-3abe-dcf882b331d0",
             "childIndex": 108,
             "point": [
-              3862.6,
-              2387.27
+              3959.12,
+              2418.52
             ],
             "rotation": 0,
             "text": "sort_by: \nowner, \ntitle, \nreview_id, \ncategory, \nreview_img_url,\n created_at, \nvotes, \ndesigner,\n comment_count",
@@ -5823,7 +5823,7 @@
               "size": "medium",
               "isFilled": false,
               "dash": "draw",
-              "scale": 1,
+              "scale": 0.7347091894872225,
               "font": "script",
               "textAlign": "start"
             }
@@ -5835,8 +5835,8 @@
             "parentId": "63444638-e30f-4914-3abe-dcf882b331d0",
             "childIndex": 110,
             "point": [
-              3832.4,
-              3022.77
+              3936.94,
+              2885.42
             ],
             "rotation": 0,
             "text": "using react-router to do this: \ncategory=${selectedCategory}",
@@ -5845,7 +5845,7 @@
               "size": "medium",
               "isFilled": false,
               "dash": "draw",
-              "scale": 1,
+              "scale": 0.7347091894872225,
               "font": "script",
               "textAlign": "start"
             }
@@ -5857,8 +5857,8 @@
             "parentId": "63444638-e30f-4914-3abe-dcf882b331d0",
             "childIndex": 111,
             "point": [
-              3856.39,
-              2337.01
+              3954.56,
+              2381.59
             ],
             "rotation": 0,
             "text": "state for holding all sorting options",
@@ -5867,7 +5867,7 @@
               "size": "medium",
               "isFilled": false,
               "dash": "draw",
-              "scale": 1,
+              "scale": 0.7347091894872225,
               "font": "script",
               "textAlign": "start"
             }
@@ -5879,8 +5879,8 @@
             "parentId": "63444638-e30f-4914-3abe-dcf882b331d0",
             "childIndex": 112,
             "point": [
-              3858.82,
-              2195.85
+              3949.3,
+              2263.01
             ],
             "rotation": 0,
             "text": "state for holding order option",
@@ -5889,7 +5889,7 @@
               "size": "medium",
               "isFilled": false,
               "dash": "draw",
-              "scale": 1,
+              "scale": 0.7435056042279287,
               "font": "script",
               "textAlign": "start"
             }
@@ -5901,8 +5901,8 @@
             "parentId": "63444638-e30f-4914-3abe-dcf882b331d0",
             "childIndex": 113,
             "point": [
-              3812.95,
-              3197.23
+              3922.65,
+              3013.6
             ],
             "rotation": 0,
             "text": "finally, shove everything into this navigate link",
@@ -5911,7 +5911,7 @@
               "size": "medium",
               "isFilled": false,
               "dash": "draw",
-              "scale": 1,
+              "scale": 0.7347091894872225,
               "font": "script",
               "textAlign": "start"
             }
@@ -5923,8 +5923,8 @@
             "parentId": "63444638-e30f-4914-3abe-dcf882b331d0",
             "childIndex": 1,
             "point": [
-              3836.24,
-              2940.2
+              3939.76,
+              2824.76
             ],
             "rotation": 0,
             "text": "\"GET /api/categories\": {",
@@ -5933,7 +5933,7 @@
               "size": "medium",
               "isFilled": false,
               "dash": "draw",
-              "scale": 1,
+              "scale": 0.7347091894872225,
               "font": "script",
               "textAlign": "start"
             }
