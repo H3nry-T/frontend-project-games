@@ -6,7 +6,7 @@ import styles from "../SingleReviewPage.module.css";
 function CommentAdder(props) {
   const { comment_count, review_id, setCommentsByReviewId } = props;
   const [commentBody, setCommentBody] = useState("");
-
+  const [addCommentCount, setAddCommentCount] = useState(0);
   const [conditionalClass, setConditionalClass] = useState("");
   const {
     loggedInUser: { username },
@@ -21,7 +21,7 @@ function CommentAdder(props) {
           fontSize: "16px",
         }}
       >
-        {comment_count} comments
+        {parseInt(comment_count) + addCommentCount} comments
       </p>
       <form
         style={{
@@ -51,6 +51,7 @@ function CommentAdder(props) {
   function handleOnSubmit() {
     return (e) => {
       e.preventDefault();
+
       if (commentBody !== "" && !isFormSubmitting) {
         setIsFormSubmitting(true);
         postCommentByReviewId(review_id, username, commentBody)
@@ -60,10 +61,12 @@ function CommentAdder(props) {
               ...currCommentsByReviewId,
             ]);
             setCommentBody("");
+            setAddCommentCount((currCommentCount) => currCommentCount + 1);
             setConditionalClass("");
             setIsFormSubmitting(false);
           })
           .catch((error) => {
+            console.error(error);
             setIsFormSubmitting(false);
           });
       } else {

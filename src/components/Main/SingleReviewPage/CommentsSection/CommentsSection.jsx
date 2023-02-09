@@ -11,6 +11,7 @@ const CommentsSection = ({ review_id, singleReview }) => {
       setCommentsByReviewId(commentsFromApi);
     });
   }, []);
+
   return (
     <section className={styles.commentsSection}>
       <CommentAdder
