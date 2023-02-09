@@ -6,6 +6,7 @@ import styles from "../SingleReviewPage.module.css";
 function CommentAdder(props) {
   const { comment_count, review_id, setCommentsByReviewId } = props;
   const [commentBody, setCommentBody] = useState("");
+
   const [conditionalClass, setConditionalClass] = useState("");
   const {
     loggedInUser: { username },
