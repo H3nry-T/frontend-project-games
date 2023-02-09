@@ -9,11 +9,68 @@
   color: white;
   box-shadow: 0px 1px 9px 2px black;
 }
+.commentsSection {
+  transition: ease-in-out 400ms;
+  max-width: 80%;
+  max-width: 700px;
+  border-radius: 2rem;
+  background-color: #565a5b;
+  margin: 1rem auto;
+  padding: 1rem;
+  color: white;
+  box-shadow: 0px 1px 9px 2px black;
+}
 
 .reviewImg {
   width: 120px;
   height: 120px;
   object-fit: contain;
+}
+
+.smallWrapper {
+  padding: 0.4rem;
+  background-color: #bfbb9c;
+  color: black;
+  margin: 1rem;
+  border-radius: 1rem;
+  box-shadow: 0px 1px 9px 0px black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+span {
+  margin: 0 1rem;
+}
+
+.singleReviewPageButton {
+  width: 2rem;
+  max-height: 2rem;
+  padding: 0;
+  margin: 0;
+  background-color: #547166;
+  color: white;
+}
+
+.singleReviewPageButton:hover {
+  transition: ease-in-out 400ms;
+  color: white;
+  cursor: pointer;
+  background-color: #563942;
+  box-shadow: 0px 1px 9px 1px black;
+  scale: calc(1.05);
+}
+
+.commentCard {
+  background-color: #547166;
+  margin: 1rem;
+  border-radius: 2rem;
+  box-shadow: 0px 1px 9px 0px black;
+}
+
+.commentCardVote {
+  border-radius: 1rem;
+  background-color: #bfbb9c;
 }
 
 .flexContainer {
@@ -37,20 +94,63 @@
   justify-content: center;
 }
 
-.pSpacing {
-  padding: 0.4rem;
-  background-color: #bfbb9c;
-  color: black;
-  margin: 1rem;
-  border-radius: 1rem;
-  box-shadow: 0px 1px 9px 0px black;
+.topLeft {
+  display: flex;
+  justify-content: flex-start;
+  width: 7rem;
+  text-align: center;
 }
 
-.pSpacing:hover {
-  transition: ease-in-out 400ms;
+.commentHeader {
+  border-radius: 2rem 2rem 0 0;
+  margin: 0;
+  padding: 1rem;
+  font-size: medium;
+  font-weight: 800;
+}
+
+.commentBody {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.commentAdderForm {
+  border-radius: 2rem;
+  background-color: #bfbb9c;
+  box-shadow: 0px 1px 9px 0px black;
+  padding: 0.6rem;
+}
+
+.commentAdderInput {
+  width: 75%;
+}
+
+.commentAdderButton {
+  border-radius: 1rem;
   color: white;
-  cursor: pointer;
+  background-color: #547166;
+  font-size: large;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: ease-in-out 400ms;
+}
+
+.commentAdderButton:hover {
+  transition: ease-in-out 400ms;
+  box-shadow: 0px 1px 9px 0px black;
   background-color: #563942;
-  box-shadow: 0px 1px 9px 1px black;
-  scale: calc(1.1);
+  scale: calc(1.05);
+}
+
+.redClass {
+  background-color: rgb(143, 71, 71);
+  box-shadow: 0px 1px 9px 0px red;
+  transition: ease-in-out 400ms;
+}
+
+.greenClass {
+  background-color: rgb(7, 94, 7);
+  box-shadow: 0px 1px 9px 0px green;
+  transition: ease-in-out 400ms;
 }
