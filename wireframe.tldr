@@ -6177,12 +6177,12 @@
             "parentId": "63444638-e30f-4914-3abe-dcf882b331d0",
             "childIndex": 122,
             "point": [
-              5478.59,
-              2438.22
+              5465.43,
+              2406.13
             ],
             "size": [
-              500.84,
-              173.97
+              536.39,
+              223.73
             ],
             "rotation": 0,
             "style": {
@@ -6207,8 +6207,8 @@
             "parentId": "63444638-e30f-4914-3abe-dcf882b331d0",
             "childIndex": 123,
             "point": [
-              5507.91,
-              2450.23
+              5500.68,
+              2414.68
             ],
             "rotation": 0,
             "text": "CommentsSection",
@@ -6255,7 +6255,7 @@
               1944.16
             ],
             "rotation": 0,
-            "text": "state hold singleReviewVotes",
+            "text": "state holds how much vote changes by",
             "style": {
               "color": "lightGray",
               "size": "medium",
@@ -6389,13 +6389,243 @@
               2835.101692073526
             ],
             "rotation": 0,
-            "text": "state holds commentVotes",
+            "text": "state holds how much the vote changes by",
             "style": {
               "color": "lightGray",
               "size": "medium",
               "isFilled": false,
               "dash": "draw",
               "scale": 1,
+              "font": "script",
+              "textAlign": "start"
+            }
+          },
+          "1517d85b-3d9c-4416-1a60-ccb2106704b7": {
+            "id": "1517d85b-3d9c-4416-1a60-ccb2106704b7",
+            "type": "text",
+            "name": "Text",
+            "parentId": "63444638-e30f-4914-3abe-dcf882b331d0",
+            "childIndex": 130,
+            "point": [
+              4437.34,
+              2831.06
+            ],
+            "rotation": 0,
+            "text": "state holding whatever the comment body is ",
+            "style": {
+              "color": "lightGray",
+              "size": "medium",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 0.8392815745300911,
+              "font": "script",
+              "textAlign": "start"
+            }
+          },
+          "b4d71bf7-3aed-4297-2ac1-f0f005274f9f": {
+            "id": "b4d71bf7-3aed-4297-2ac1-f0f005274f9f",
+            "type": "rectangle",
+            "name": "Rectangle",
+            "parentId": "63444638-e30f-4914-3abe-dcf882b331d0",
+            "childIndex": 131,
+            "point": [
+              5606.43,
+              2463.7
+            ],
+            "size": [
+              366.71,
+              33.53
+            ],
+            "rotation": 0,
+            "style": {
+              "color": "lightGray",
+              "size": "medium",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 1,
+              "font": "script",
+              "textAlign": "start"
+            },
+            "label": "",
+            "labelPoint": [
+              0.5,
+              0.5
+            ]
+          },
+          "da0ae46f-3c54-4aa9-2405-5116fc6fcb7b": {
+            "id": "da0ae46f-3c54-4aa9-2405-5116fc6fcb7b",
+            "type": "text",
+            "name": "Text",
+            "parentId": "63444638-e30f-4914-3abe-dcf882b331d0",
+            "childIndex": 132,
+            "point": [
+              5642.9,
+              2460.52
+            ],
+            "rotation": 0,
+            "text": "comment adder",
+            "style": {
+              "color": "lightGray",
+              "size": "medium",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 0.6938526300677009,
+              "font": "script",
+              "textAlign": "start"
+            }
+          },
+          "457a9aa9-c952-4196-3d61-0a27ecff441c": {
+            "id": "457a9aa9-c952-4196-3d61-0a27ecff441c",
+            "type": "rectangle",
+            "name": "Rectangle",
+            "parentId": "63444638-e30f-4914-3abe-dcf882b331d0",
+            "childIndex": 133,
+            "point": [
+              5484.16,
+              2462.2
+            ],
+            "size": [
+              107.53,
+              35.25
+            ],
+            "rotation": 0,
+            "style": {
+              "color": "lightGray",
+              "size": "medium",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 1,
+              "font": "script",
+              "textAlign": "start"
+            },
+            "label": "",
+            "labelPoint": [
+              0.5,
+              0.5
+            ]
+          },
+          "6bec45a7-6a2e-441e-34b3-0cc7f5e7160e": {
+            "id": "6bec45a7-6a2e-441e-34b3-0cc7f5e7160e",
+            "type": "rectangle",
+            "name": "Rectangle",
+            "parentId": "63444638-e30f-4914-3abe-dcf882b331d0",
+            "childIndex": 134,
+            "point": [
+              5517.42,
+              2515.24
+            ],
+            "size": [
+              424.1,
+              41.35
+            ],
+            "rotation": 0,
+            "style": {
+              "color": "lightGray",
+              "size": "medium",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 1,
+              "font": "script",
+              "textAlign": "start"
+            },
+            "label": "",
+            "labelPoint": [
+              0.5,
+              0.5
+            ]
+          },
+          "05988865-8300-490d-118c-546893294331": {
+            "id": "05988865-8300-490d-118c-546893294331",
+            "type": "rectangle",
+            "name": "Rectangle",
+            "parentId": "63444638-e30f-4914-3abe-dcf882b331d0",
+            "childIndex": 135,
+            "point": [
+              5523.48,
+              2573.99
+            ],
+            "size": [
+              415.49,
+              43.39
+            ],
+            "rotation": 0,
+            "style": {
+              "color": "lightGray",
+              "size": "medium",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 1,
+              "font": "script",
+              "textAlign": "start"
+            },
+            "label": "",
+            "labelPoint": [
+              0.5,
+              0.5
+            ]
+          },
+          "9594a61e-57f2-4d56-1b00-3b4b13d26989": {
+            "id": "9594a61e-57f2-4d56-1b00-3b4b13d26989",
+            "type": "text",
+            "name": "Text",
+            "parentId": "63444638-e30f-4914-3abe-dcf882b331d0",
+            "childIndex": 136,
+            "point": [
+              5634.98,
+              2511.12
+            ],
+            "rotation": 0,
+            "text": "commentcard",
+            "style": {
+              "color": "lightGray",
+              "size": "medium",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 0.7576627566550008,
+              "font": "script",
+              "textAlign": "start"
+            }
+          },
+          "7e16b0d8-9e20-44e5-08e4-88fa5ede7705": {
+            "id": "7e16b0d8-9e20-44e5-08e4-88fa5ede7705",
+            "type": "text",
+            "name": "Text",
+            "parentId": "63444638-e30f-4914-3abe-dcf882b331d0",
+            "childIndex": 137,
+            "point": [
+              5637.97,
+              2570.09
+            ],
+            "rotation": 0,
+            "text": "commentcard",
+            "style": {
+              "color": "lightGray",
+              "size": "medium",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 0.7576627566550008,
+              "font": "script",
+              "textAlign": "start"
+            }
+          },
+          "25475167-07c3-4e9b-1453-589838a289a1": {
+            "id": "25475167-07c3-4e9b-1453-589838a289a1",
+            "type": "text",
+            "name": "Text",
+            "parentId": "63444638-e30f-4914-3abe-dcf882b331d0",
+            "childIndex": 138,
+            "point": [
+              4455.68,
+              2876.2
+            ],
+            "rotation": 0,
+            "text": "set the above state to update list of comments",
+            "style": {
+              "color": "lightGray",
+              "size": "medium",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 0.6693662753382812,
               "font": "script",
               "textAlign": "start"
             }
