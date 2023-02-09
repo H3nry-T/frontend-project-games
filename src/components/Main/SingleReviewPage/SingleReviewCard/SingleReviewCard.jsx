@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import { patchCommentsByReviewId } from "../../../../utils/axiosSingleReview";
+import { patchReviewByReviewId } from "../../../../utils/axiosSingleReview";
 import styles from "../SingleReviewPage.module.css";
 import SingleReviewCardInfo from "./SingleReviewCardInfo";
 import SingleReviewCardVotes from "./SingleReviewCardVotes";
@@ -27,17 +27,17 @@ const SingleReviewCard = ({ date, singleReview }) => {
   function incReviewVotes(value) {
     if (voteChange === 1) {
       setVoteChange((currVoteChange) => currVoteChange - 1);
-      patchCommentsByReviewId(review_id, -1).catch((error) =>
+      patchReviewByReviewId(review_id, -1).catch((error) =>
         console.error(error)
       );
     } else if (voteChange === -1) {
       setVoteChange((currVoteChange) => currVoteChange + 1);
-      patchCommentsByReviewId(review_id, +1).catch((error) =>
+      patchReviewByReviewId(review_id, +1).catch((error) =>
         console.error(error)
       );
     } else {
       setVoteChange((currVoteChange) => currVoteChange + value);
-      patchCommentsByReviewId(review_id, value).catch((error) =>
+      patchReviewByReviewId(review_id, value).catch((error) =>
         console.error(error)
       );
     }

@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { getCommentsByReviewId } from "../../../../utils/axiosSingleReview";
-import CommentCard from "./CommentCard";
+import CommentCard from "./CommentCard/CommentCard";
 import styles from "../SingleReviewPage.module.css";
 
 const CommentsSection = ({ review_id, singleReview }) => {
