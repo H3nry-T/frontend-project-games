@@ -37,3 +37,16 @@ export const patchCommentByReviewId = (comment_id, value) => {
     }
   );
 };
+
+export const postCommentByReviewId = (review_id, username, body) => {
+  const postBody = {
+    username: username,
+    body: body,
+  };
+
+  return ApiRequest.post(`/reviews/${review_id}/comments`, postBody).then(
+    ({ data }) => {
+      return data.postedComment;
+    }
+  );
+};

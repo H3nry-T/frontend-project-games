@@ -23,7 +23,8 @@ Content-Type: application/json
 
 {
     "username": "weegembump",
-    "body": "comment body test 101"
+    "body": "another test comment 2"
 }
 
 # GET https://nc-games-9h15.onrender.com/api/users HTTP/1.1
+

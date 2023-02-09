@@ -114,6 +114,35 @@ span {
   padding-right: 1rem;
 }
 
+.commentAdderForm {
+  border-radius: 2rem;
+  background-color: #bfbb9c;
+  box-shadow: 0px 1px 9px 0px black;
+  padding: 0.6rem;
+}
+
+.commentAdderInput {
+  width: 75%;
+}
+
+.commentAdderButton {
+  border-radius: 1rem;
+  color: white;
+  background-color: #547166;
+  font-size: large;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: ease-in-out 400ms;
+}
+
+.commentAdderButton:hover {
+  transition: ease-in-out 400ms;
+  box-shadow: 0px 1px 9px 0px black;
+  background-color: #563942;
+  scale: calc(1.05);
+}
+
 .redClass {
   background-color: rgb(143, 71, 71);
   box-shadow: 0px 1px 9px 0px red;
