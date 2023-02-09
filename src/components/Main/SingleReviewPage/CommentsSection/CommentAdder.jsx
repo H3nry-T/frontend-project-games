@@ -15,14 +15,18 @@ function CommentAdder(props) {
 
   return (
     <article className={styles.flexContainer}>
-      <p
+      <div
         className={`${styles.smallWrapper} ${styles.topLeft}`}
         style={{
           fontSize: "16px",
+          flexDirection: "column",
         }}
       >
-        {parseInt(comment_count) + addCommentCount} comments
-      </p>
+        <strong style={{ display: "block", fontSize: "large" }}>
+          {parseInt(comment_count) + addCommentCount}
+        </strong>
+        <p>comments</p>
+      </div>
       <form
         style={{
           width: "100%",
