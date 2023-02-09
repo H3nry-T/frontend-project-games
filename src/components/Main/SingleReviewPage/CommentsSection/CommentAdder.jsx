@@ -63,11 +63,9 @@ function CommentAdder(props) {
             setIsFormSubmitting(false);
           })
           .catch((error) => {
-            console.error(error);
             setIsFormSubmitting(false);
           });
       } else {
-        console.log("setting red", conditionalClass);
         if (commentBody === "") {
           setConditionalClass(styles.redClass);
         } else {
