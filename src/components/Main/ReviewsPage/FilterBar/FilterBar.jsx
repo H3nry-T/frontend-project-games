@@ -2,10 +2,13 @@ import { useEffect, useState } from "react";
 import { useLocation, useNavigate } from "react-router-dom";
 import { getAllCategories } from "../../../../utils/axiosAllReviews";
 import styles from "../ReviewsPage.module.css";
+import CategoryFilterButton from "./FilterButtons/CategoryFilterButton";
+import OrderFilterButton from "./FilterButtons/OrderFilterButton";
+import SortByFilterButton from "./FilterButtons/SortByFilterButton";
 
 export default function FilterBar({ allReviews, setAllReviews }) {
   const [allCategoryOptions, setAllCategoryOptions] = useState([]);
-  const [allOrderOptions] = useState(["Ascending", "Descending"]);
+  const [allOrderOptions] = useState(["ASC", "DESC"]);
   const [allSortByOptions, setAllSortByOptions] = useState(["owner"]);
 
   const navigate = useNavigate();
@@ -20,9 +23,10 @@ export default function FilterBar({ allReviews, setAllReviews }) {
 
   const orderQueryParam = queryParams.get("order");
   const [orderButtonIsPressed, setOrderButtonIsPressed] = useState(false);
-  const [url, setUrl] = useState("/");
+  const url = "/";
   const [addQuery, setAddQuery] = useState("");
 
+  const [combinedQueries, setCombinedQueries] = useState([]);
   //GIVE ALL CATEGORY OPTIONS
   useEffect(() => {
     getAllCategories().then((categoriesFromApi) => {
@@ -39,7 +43,7 @@ export default function FilterBar({ allReviews, setAllReviews }) {
   //IF BUTTON PRESSED NAVIGATE
   useEffect(() => {
     const endpoint = url + addQuery;
-    navigate(url + addQuery);
+    navigate(endpoint);
   }, [addQuery, url, navigate]);
 
   return (
@@ -48,80 +52,38 @@ export default function FilterBar({ allReviews, setAllReviews }) {
       <h3>category:</h3>
       {allCategoryOptions.map((category) => {
         return (
-          <button
+          <CategoryFilterButton
             key={category}
-            className={`${styles.reviewFilterButton} ${
-              categoryButtonIsPressed && category === categoryQueryParam
-                ? styles.indentButton
-                : ""
-            }`}
-            onClick={() => {
-              if (categoryQueryParam === category) {
-                setCategoryButtonIsPressed(false);
-                setAddQuery("");
-              } else {
-                setCategoryButtonIsPressed(true);
-                setAddQuery(`reviews?category=${category}`);
-              }
-            }}
-          >
-            {category}
-          </button>
+            categoryQueryParam={categoryQueryParam}
+            categoryButtonIsPressed={categoryButtonIsPressed}
+            setCategoryButtonIsPressed={setCategoryButtonIsPressed}
+            setAddQuery={setAddQuery}
+            category={category}
+          ></CategoryFilterButton>
         );
       })}
       <h3>sort_by:</h3>
       {allSortByOptions.map((sortBy) => (
-        <button
+        <SortByFilterButton
           key={sortBy}
-          className={`${styles.reviewFilterButton} ${
-            sortByButtonIsPressed && sortBy === sortByQueryParam
-              ? styles.indentButton
-              : ""
-          }`}
-          onClick={() => {
-            if (sortByQueryParam === sortBy) {
-              setSortByButtonIsPressed(false);
-              setAddQuery("");
-            } else {
-              setSortByButtonIsPressed(true);
-              setAddQuery(`reviews?sort_by=${sortBy}`);
-            }
-          }}
-        >
-          {sortBy}
-        </button>
+          sortByQueryParam={sortByQueryParam}
+          sortByButtonIsPressed={sortByButtonIsPressed}
+          setSortByButtonIsPressed={setSortByButtonIsPressed}
+          setAddQuery={setAddQuery}
+          sortBy={sortBy}
+        ></SortByFilterButton>
       ))}
       <h3>order:</h3>
-      {allOrderOptions.map((orderOption) => {
-        const order =
-          orderOption === "Ascending"
-            ? "ASC"
-            : orderOption === "Descending"
-            ? "DESC"
-            : "ASC";
-
-        return (
-          <button
-            key={order}
-            className={`${styles.reviewFilterButton} ${
-              orderButtonIsPressed && order === orderQueryParam
-                ? styles.indentButton
-                : ""
-            }`}
-            onClick={() => {
-              if (orderQueryParam === order) {
-                setOrderButtonIsPressed(false);
-                setAddQuery("");
-              } else {
-                setOrderButtonIsPressed(true);
-                setAddQuery(`reviews?order=${order}`);
-              }
-            }}
-          >
-            {order}
-          </button>
-        );
-      })}
+      {allOrderOptions.map((order) => (
+        <OrderFilterButton
+          key={order}
+          order={order}
+          orderQueryParam={orderQueryParam}
+          orderButtonIsPressed={orderButtonIsPressed}
+          setOrderButtonIsPressed={setOrderButtonIsPressed}
+          setAddQuery={setAddQuery}
+        ></OrderFilterButton>
+      ))}
     </aside>
   );
 }

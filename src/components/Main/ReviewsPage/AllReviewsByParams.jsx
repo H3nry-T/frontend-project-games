@@ -20,7 +20,7 @@ const AllReviewsByParams = () => {
         setLoading(false);
       }
     );
-  }, [selectedCategory, selectedSortBy]);
+  }, [selectedCategory, selectedSortBy, selectedOrder]);
 
   if (loading) {
     return (
