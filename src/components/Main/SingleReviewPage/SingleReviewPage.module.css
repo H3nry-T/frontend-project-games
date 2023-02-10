@@ -154,3 +154,23 @@ span {
   box-shadow: 0px 1px 9px 0px green;
   transition: ease-in-out 400ms;
 }
+
+.deleteButton {
+  border-radius: 1rem;
+  color: white;
+  background-color: hsl(342, 58%, 33%);
+  font-size: large;
+  transition: ease-in-out 400ms;
+  margin: 1rem;
+}
+
+.deleteButton:hover {
+  transition: ease-in-out 400ms;
+  box-shadow: 0px 1px 9px 0px black;
+  background-color: #563942;
+  scale: calc(1.05);
+}
+
+.alignItemsCenter {
+  align-items: center;
+}

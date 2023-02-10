@@ -1,13 +1,16 @@
-import React, { useEffect, useState } from "react";
+import React, { useContext, useEffect, useState } from "react";
+import { UserContext } from "../../../../../context/userContext";
 import { patchCommentByReviewId } from "../../../../../utils/axiosSingleReview";
 import styles from "../../SingleReviewPage.module.css";
 import CommentCardVotes from "./CommentCardVotes";
+import DeleteCommentButton from "./DeleteCommentButton";
 
 const CommentCard = ({ commentObj }) => {
   const comment_id = commentObj.comment_id;
   const [voteChange, setVoteChange] = useState(0);
   const date = new Date(Date.parse(commentObj.created_at));
   const [conditionalClass, setConditionalClass] = useState("");
+  const { loggedInUser } = useContext(UserContext);
 
   useEffect(() => {
     setConditionalClass(
@@ -44,13 +47,23 @@ const CommentCard = ({ commentObj }) => {
       <p className={`${styles.textLeft} ${styles.commentBody}`}>
         {commentObj.body}
       </p>
-      <CommentCardVotes
-        comment_id={comment_id}
-        voteChange={voteChange}
-        conditionalClass={conditionalClass}
-        votes={commentObj.votes}
-        incCommentVotes={incCommentVotes}
-      ></CommentCardVotes>
+      <section
+        className={`${styles.flexContainer} ${styles.spaceBetween} ${styles.alignItemsCenter}`}
+      >
+        <CommentCardVotes
+          comment_id={comment_id}
+          voteChange={voteChange}
+          conditionalClass={conditionalClass}
+          votes={commentObj.votes}
+          incCommentVotes={incCommentVotes}
+        ></CommentCardVotes>
+
+        {commentObj.author === loggedInUser.username ? (
+          <DeleteCommentButton></DeleteCommentButton>
+        ) : (
+          ""
+        )}
+      </section>
     </article>
   );
 };

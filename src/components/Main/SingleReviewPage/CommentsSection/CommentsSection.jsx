@@ -10,7 +10,7 @@ const CommentsSection = ({ review_id, singleReview }) => {
     getCommentsByReviewId(review_id).then((commentsFromApi) => {
       setCommentsByReviewId(commentsFromApi);
     });
-  }, []);
+  }, [review_id]);
 
   return (
     <section className={styles.commentsSection}>

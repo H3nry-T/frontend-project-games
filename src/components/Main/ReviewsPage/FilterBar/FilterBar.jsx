@@ -43,7 +43,6 @@ export default function FilterBar({ allReviews, setAllReviews }) {
   useEffect(() => {
     const combinedQuery = addQuery.join("&");
     const endpoint = url + "reviews?" + combinedQuery;
-    console.log(endpoint);
     navigate(endpoint);
   }, [addQuery, url, navigate]);
 
