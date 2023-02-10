@@ -20,6 +20,7 @@ export const getReviewsByParams = (category, sort_by, order) => {
       order: order === "ASC" ? "ASC" : order === "DESC" ? "DESC" : "ASC",
     },
   }).then(({ data: { reviews } }) => {
+    console.log("from axios:", reviews);
     return reviews;
   });
 };

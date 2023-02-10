@@ -28,4 +28,4 @@
 
 # GET https://nc-games-9h15.onrender.com/api/users HTTP/1.1
 
-GET https://nc-games-9h15.onrender.com/api/reviews?category=strategy HTTP/1.1
+GET https://nc-games-9h15.onrender.com/api/reviews?category=strategy&order=DESC&sort_by=votes HTTP/1.1

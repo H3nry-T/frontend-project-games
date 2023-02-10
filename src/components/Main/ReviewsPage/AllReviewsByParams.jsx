@@ -8,16 +8,19 @@ const AllReviewsByParams = () => {
   const location = useLocation();
   const queryParams = new URLSearchParams(location.search);
   const selectedCategory = queryParams.get("category");
+  const selectedSortBy = queryParams.get("sort_by");
+  const selectedOrder = queryParams.get("order");
   const [allReviewsByQueryParams, setAllReviewsByQueryParams] = useState([]);
   const [loading, setLoading] = useState(true);
+
   useEffect(() => {
-    getReviewsByParams(selectedCategory).then(
+    getReviewsByParams(selectedCategory, selectedSortBy, selectedOrder).then(
       (allReviewsByQueryParamsFromApi) => {
         setAllReviewsByQueryParams(allReviewsByQueryParamsFromApi);
         setLoading(false);
       }
     );
-  }, [selectedCategory]);
+  }, [selectedCategory, selectedSortBy]);
 
   if (loading) {
     return (
