@@ -13,7 +13,6 @@ const AllReviewsByParams = () => {
   useEffect(() => {
     getReviewsByParams(selectedCategory).then(
       (allReviewsByQueryParamsFromApi) => {
-        console.log(allReviewsByQueryParamsFromApi);
         setAllReviewsByQueryParams(allReviewsByQueryParamsFromApi);
         setLoading(false);
       }

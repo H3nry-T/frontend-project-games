@@ -38,6 +38,7 @@
   transition: ease-in-out 400ms;
   background-color: #433237;
   scale: calc(1.01);
+  cursor: pointer;
 }
 
 .strong {
@@ -63,6 +64,7 @@
   box-shadow: 0px 1px 9px 1px black;
   background-color: #433237;
   scale: calc(1.05);
+  cursor: pointer;
 }
 
 .highlight {
@@ -77,6 +79,12 @@
 }
 
 .indentButton {
+  transition: ease-in-out 400ms;
+  box-shadow: inset 0px 1px 9px 1px black;
+  background-color: #433237;
+}
+
+.indentButton:hover {
   transition: ease-in-out 400ms;
   box-shadow: inset 0px 1px 9px 1px black;
   background-color: #433237;
