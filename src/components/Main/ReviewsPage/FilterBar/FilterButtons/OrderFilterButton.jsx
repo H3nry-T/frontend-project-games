@@ -10,12 +10,30 @@ function OrderFilterButton(props) {
           : ""
       }`}
       onClick={() => {
+        //IF CLICKING ON THE SAME BUTTON
         if (props.orderQueryParam === props.order) {
           props.setOrderButtonIsPressed(false);
-          props.setAddQuery("");
+          props.setAddQuery((currQueries) =>
+            [...currQueries].filter((query) => !query.startsWith("order"))
+          );
         } else {
+          //CLICKING ON DIFFERENT BUTTON
           props.setOrderButtonIsPressed(true);
-          props.setAddQuery(`reviews?order=${props.order}`);
+
+          props.setAddQuery((currQueries) => {
+            const existsOrderQuery = currQueries.find((query) =>
+              query.startsWith("order")
+            );
+            let finalisedQueries = [...currQueries];
+            //IF ANOTHER ORDER IS SELECTED REMOVE IT FROM URL
+            if (existsOrderQuery) {
+              finalisedQueries = finalisedQueries.filter(
+                (query) => !query.startsWith("order")
+              );
+            }
+            //ELSE NO ORDER IS IN URL AND WE CAN ADD NEW ORDER
+            return [...finalisedQueries, `order=${props.order}`];
+          });
         }
       }}
     >

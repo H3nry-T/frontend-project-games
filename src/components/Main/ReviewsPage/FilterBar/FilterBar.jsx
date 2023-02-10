@@ -24,9 +24,8 @@ export default function FilterBar({ allReviews, setAllReviews }) {
   const orderQueryParam = queryParams.get("order");
   const [orderButtonIsPressed, setOrderButtonIsPressed] = useState(false);
   const url = "/";
-  const [addQuery, setAddQuery] = useState("");
+  const [addQuery, setAddQuery] = useState([]);
 
-  const [combinedQueries, setCombinedQueries] = useState([]);
   //GIVE ALL CATEGORY OPTIONS
   useEffect(() => {
     getAllCategories().then((categoriesFromApi) => {
@@ -40,9 +39,11 @@ export default function FilterBar({ allReviews, setAllReviews }) {
     setAllSortByOptions(columnNames);
   }, [allReviews]);
 
-  //IF BUTTON PRESSED NAVIGATE
+  //IF BUTTON PRESSED CHANGE URL
   useEffect(() => {
-    const endpoint = url + addQuery;
+    const combinedQuery = addQuery.join("&");
+    const endpoint = url + "reviews?" + combinedQuery;
+    console.log(endpoint);
     navigate(endpoint);
   }, [addQuery, url, navigate]);
 
@@ -63,16 +64,23 @@ export default function FilterBar({ allReviews, setAllReviews }) {
         );
       })}
       <h3>sort_by:</h3>
-      {allSortByOptions.map((sortBy) => (
-        <SortByFilterButton
-          key={sortBy}
-          sortByQueryParam={sortByQueryParam}
-          sortByButtonIsPressed={sortByButtonIsPressed}
-          setSortByButtonIsPressed={setSortByButtonIsPressed}
-          setAddQuery={setAddQuery}
-          sortBy={sortBy}
-        ></SortByFilterButton>
-      ))}
+      {allSortByOptions
+        .filter(
+          (sortBy) =>
+            sortBy === "votes" ||
+            sortBy === "comment_count" ||
+            sortBy === "created_at"
+        )
+        .map((sortBy) => (
+          <SortByFilterButton
+            key={sortBy}
+            sortByQueryParam={sortByQueryParam}
+            sortByButtonIsPressed={sortByButtonIsPressed}
+            setSortByButtonIsPressed={setSortByButtonIsPressed}
+            setAddQuery={setAddQuery}
+            sortBy={sortBy}
+          ></SortByFilterButton>
+        ))}
       <h3>order:</h3>
       {allOrderOptions.map((order) => (
         <OrderFilterButton

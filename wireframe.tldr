@@ -6619,6 +6619,28 @@
               "font": "script",
               "textAlign": "start"
             }
+          },
+          "a71f1903-df94-4866-041c-928619a04125": {
+            "id": "a71f1903-df94-4866-041c-928619a04125",
+            "type": "text",
+            "name": "Text",
+            "parentId": "63444638-e30f-4914-3abe-dcf882b331d0",
+            "childIndex": 144,
+            "point": [
+              3931.57,
+              3504.97
+            ],
+            "rotation": 0,
+            "text": "home : \"/\"\ncombinedQueries: \"q=value\" + \"q=value\"\nconcat combined queries with & \nfinal query: home + \"reviews?\"  + combinedQueries.join(\"&\"); ",
+            "style": {
+              "color": "lightGray",
+              "size": "medium",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 1,
+              "font": "script",
+              "textAlign": "start"
+            }
           }
         },
         "bindings": {
