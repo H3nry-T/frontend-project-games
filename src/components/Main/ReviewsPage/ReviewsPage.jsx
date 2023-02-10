@@ -1,7 +1,9 @@
 import React, { useEffect, useState } from "react";
+import { Route, Routes } from "react-router-dom";
 import { getAllReviews } from "../../../utils/axiosAllReviews";
+import AllReviews from "./AllReviews";
+import AllReviewsByParams from "./AllReviewsByParams";
 import FilterBar from "./FilterBar";
-import ReviewCard from "./ReviewCard";
 import styles from "./ReviewsPage.module.css";
 
 const ReviewsPage = () => {
@@ -21,17 +23,20 @@ const ReviewsPage = () => {
         <h1 className={styles.loading}>Loading...</h1>
       ) : (
         <section className={styles.allReviewContainer}>
-          <FilterBar allReviews={allReviews}></FilterBar>
-          <aside className={styles.reviewListAside}>
-            {allReviews.map((reviewObj) => {
-              return (
-                <ReviewCard
-                  key={reviewObj.review_id}
-                  reviewObj={reviewObj}
-                ></ReviewCard>
-              );
-            })}
-          </aside>
+          <FilterBar
+            allReviews={allReviews}
+            setAllReviews={setAllReviews}
+          ></FilterBar>
+          <Routes>
+            <Route
+              path="/"
+              element={<AllReviews allReviews={allReviews} />}
+            ></Route>
+            <Route
+              path="/*"
+              element={<AllReviewsByParams allReviews={allReviews} />}
+            ></Route>
+          </Routes>
         </section>
       )}
     </>
