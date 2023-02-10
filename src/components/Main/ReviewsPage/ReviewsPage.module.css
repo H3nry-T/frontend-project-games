@@ -75,3 +75,15 @@
   text-align: center;
   font-weight: 1000;
 }
+
+.indentButton {
+  transition: ease-in-out 400ms;
+  box-shadow: inset 0px 1px 9px 1px black;
+  background-color: #433237;
+}
+
+.alignItemsCenter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

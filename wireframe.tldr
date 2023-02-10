@@ -4215,118 +4215,6 @@
               0.5
             ]
           },
-          "d9c7c939-8262-482b-15cf-ed4f75f00ae8": {
-            "id": "d9c7c939-8262-482b-15cf-ed4f75f00ae8",
-            "type": "arrow",
-            "name": "Arrow",
-            "parentId": "63444638-e30f-4914-3abe-dcf882b331d0",
-            "childIndex": 47,
-            "point": [
-              3616.75,
-              1052.37
-            ],
-            "rotation": 0,
-            "bend": 0.00001470627716484383,
-            "handles": {
-              "start": {
-                "id": "start",
-                "index": 0,
-                "point": [
-                  468.35,
-                  0
-                ],
-                "canBind": true,
-                "bindingId": "d9e6996b-190b-4aed-3c1a-c855fb02bed1"
-              },
-              "end": {
-                "id": "end",
-                "index": 1,
-                "point": [
-                  0,
-                  803.44
-                ],
-                "canBind": true,
-                "bindingId": "867e5b54-ada5-4be8-1d79-d6f7c977a8e2"
-              },
-              "bend": {
-                "id": "bend",
-                "index": 2,
-                "point": [
-                  234.18,
-                  401.72
-                ]
-              }
-            },
-            "decorations": {
-              "end": "arrow"
-            },
-            "style": {
-              "color": "lightGray",
-              "size": "medium",
-              "isFilled": false,
-              "dash": "draw",
-              "scale": 1,
-              "font": "script",
-              "textAlign": "start"
-            },
-            "label": "",
-            "labelPoint": [
-              0.5,
-              0.5
-            ]
-          },
-          "5c246b88-fecd-4a67-2043-f8060e5d5634": {
-            "id": "5c246b88-fecd-4a67-2043-f8060e5d5634",
-            "type": "rectangle",
-            "name": "Rectangle",
-            "parentId": "63444638-e30f-4914-3abe-dcf882b331d0",
-            "childIndex": 48,
-            "point": [
-              3475.44,
-              1871.81
-            ],
-            "size": [
-              288.82,
-              82.18
-            ],
-            "rotation": 0,
-            "style": {
-              "color": "lightGray",
-              "size": "medium",
-              "isFilled": false,
-              "dash": "draw",
-              "scale": 1,
-              "font": "script",
-              "textAlign": "start"
-            },
-            "label": "",
-            "labelPoint": [
-              0.5,
-              0.5
-            ]
-          },
-          "41cbc007-9921-4d45-314c-94c1cc3dc333": {
-            "id": "41cbc007-9921-4d45-314c-94c1cc3dc333",
-            "type": "text",
-            "name": "Text",
-            "parentId": "63444638-e30f-4914-3abe-dcf882b331d0",
-            "childIndex": 49,
-            "point": [
-              3497.36,
-              1885.49
-            ],
-            "rotation": 0,
-            "text": "CategoryPage",
-            "style": {
-              "color": "lightGray",
-              "size": "medium",
-              "isFilled": false,
-              "dash": "draw",
-              "scale": 1.1095501357762276,
-              "font": "script",
-              "textAlign": "start"
-            }
-          },
           "892efecf-86e8-405e-32b0-4d454beb002b": {
             "id": "892efecf-86e8-405e-32b0-4d454beb002b",
             "type": "rectangle",
@@ -4446,8 +4334,8 @@
             "parentId": "63444638-e30f-4914-3abe-dcf882b331d0",
             "childIndex": 54,
             "point": [
-              4823.34,
-              2420.66
+              5297.62,
+              2226.76
             ],
             "size": [
               347.77,
@@ -4476,8 +4364,8 @@
             "parentId": "63444638-e30f-4914-3abe-dcf882b331d0",
             "childIndex": 56,
             "point": [
-              4752.34,
-              2159.47
+              4979.14,
+              1704.69
             ],
             "rotation": 0,
             "bend": 0,
@@ -4489,23 +4377,25 @@
                   0,
                   0
                 ],
-                "canBind": true
+                "canBind": true,
+                "bindingId": "dac440b4-b74a-4af8-1c8c-0962cdd53277"
               },
               "end": {
                 "id": "end",
                 "index": 1,
                 "point": [
-                  247.43424138886692,
-                  221.33898974365556
+                  504.13,
+                  532.08
                 ],
-                "canBind": true
+                "canBind": true,
+                "bindingId": "c68bf298-034e-41c8-11ef-991c2286b2bc"
               },
               "bend": {
                 "id": "bend",
                 "index": 2,
                 "point": [
-                  123.72,
-                  110.67
+                  252.07,
+                  266.04
                 ]
               }
             },
@@ -4534,8 +4424,8 @@
             "parentId": "63444638-e30f-4914-3abe-dcf882b331d0",
             "childIndex": 57,
             "point": [
-              4780.78,
-              2545.99
+              5255.06,
+              2352.09
             ],
             "rotation": 0,
             "text": "Comments: To hold a list of comments for a selected review",
@@ -4567,28 +4457,6 @@
               "isFilled": false,
               "dash": "draw",
               "scale": 0.6034656082134688,
-              "font": "script",
-              "textAlign": "start"
-            }
-          },
-          "fbeda145-f430-46b7-05cf-3d73325bc91f": {
-            "id": "fbeda145-f430-46b7-05cf-3d73325bc91f",
-            "type": "text",
-            "name": "Text",
-            "parentId": "63444638-e30f-4914-3abe-dcf882b331d0",
-            "childIndex": 59,
-            "point": [
-              3400.68,
-              1964.54
-            ],
-            "rotation": 0,
-            "text": "Categories: To hold a list of all categories",
-            "style": {
-              "color": "lightGray",
-              "size": "medium",
-              "isFilled": false,
-              "dash": "draw",
-              "scale": 0.699725837277709,
               "font": "script",
               "textAlign": "start"
             }
@@ -4644,8 +4512,8 @@
             "parentId": "63444638-e30f-4914-3abe-dcf882b331d0",
             "childIndex": 62,
             "point": [
-              4600.48,
-              2694.84
+              5074.76,
+              2500.94
             ],
             "size": [
               298.53,
@@ -4674,8 +4542,8 @@
             "parentId": "63444638-e30f-4914-3abe-dcf882b331d0",
             "childIndex": 63,
             "point": [
-              4753.65,
-              2605.69
+              5227.93,
+              2411.79
             ],
             "rotation": 0,
             "bend": 0.00003903954793868846,
@@ -4733,8 +4601,8 @@
             "parentId": "63444638-e30f-4914-3abe-dcf882b331d0",
             "childIndex": 64,
             "point": [
-              4638.13,
-              2711.44
+              5112.41,
+              2517.54
             ],
             "rotation": 0,
             "text": "AddComment",
@@ -4807,8 +4675,8 @@
             "parentId": "63444638-e30f-4914-3abe-dcf882b331d0",
             "childIndex": 67,
             "point": [
-              3746.98,
-              3499.57
+              2761.26,
+              2255.71
             ],
             "size": [
               986.2,
@@ -4837,8 +4705,8 @@
             "parentId": "63444638-e30f-4914-3abe-dcf882b331d0",
             "childIndex": 68,
             "point": [
-              4214.19,
-              3389.28
+              3228.47,
+              2145.42
             ],
             "rotation": 0,
             "text": "app",
@@ -4859,8 +4727,8 @@
             "parentId": "63444638-e30f-4914-3abe-dcf882b331d0",
             "childIndex": 69,
             "point": [
-              3801.95,
-              3528.59
+              2816.23,
+              2284.73
             ],
             "size": [
               882.14,
@@ -4889,8 +4757,8 @@
             "parentId": "63444638-e30f-4914-3abe-dcf882b331d0",
             "childIndex": 70,
             "point": [
-              3807.07,
-              3534.6
+              2821.35,
+              2290.74
             ],
             "rotation": 0,
             "text": "Header",
@@ -4911,8 +4779,8 @@
             "parentId": "63444638-e30f-4914-3abe-dcf882b331d0",
             "childIndex": 71,
             "point": [
-              3806.33,
-              3649.08
+              2820.61,
+              2405.22
             ],
             "size": [
               873.7,
@@ -4941,8 +4809,8 @@
             "parentId": "63444638-e30f-4914-3abe-dcf882b331d0",
             "childIndex": 72,
             "point": [
-              3840.28,
-              3656.95
+              2854.56,
+              2413.09
             ],
             "rotation": 0,
             "text": "NavBar",
@@ -4963,8 +4831,8 @@
             "parentId": "63444638-e30f-4914-3abe-dcf882b331d0",
             "childIndex": 73,
             "point": [
-              3774.58,
-              3745.07
+              2788.86,
+              2501.21
             ],
             "size": [
               937.16,
@@ -4993,8 +4861,8 @@
             "parentId": "63444638-e30f-4914-3abe-dcf882b331d0",
             "childIndex": 75,
             "point": [
-              4172.96,
-              3662.26
+              3187.24,
+              2418.4
             ],
             "rotation": 0,
             "text": "ReviewPage",
@@ -5015,8 +4883,8 @@
             "parentId": "63444638-e30f-4914-3abe-dcf882b331d0",
             "childIndex": 76,
             "point": [
-              4492.03,
-              3658.83
+              3506.31,
+              2414.97
             ],
             "rotation": 0,
             "text": "ProfilePage",
@@ -5037,8 +4905,8 @@
             "parentId": "63444638-e30f-4914-3abe-dcf882b331d0",
             "childIndex": 77,
             "point": [
-              3816.51,
-              3752.18
+              2830.79,
+              2508.32
             ],
             "rotation": 0,
             "text": "main",
@@ -5059,8 +4927,8 @@
             "parentId": "63444638-e30f-4914-3abe-dcf882b331d0",
             "childIndex": 79,
             "point": [
-              4182.51,
-              3871.58
+              3196.79,
+              2627.72
             ],
             "size": [
               443.47,
@@ -5089,8 +4957,8 @@
             "parentId": "63444638-e30f-4914-3abe-dcf882b331d0",
             "childIndex": 80,
             "point": [
-              4199.213294160619,
-              3892.415690687364
+              3213.5,
+              2648.56
             ],
             "rotation": 0,
             "text": "ReviewCard",
@@ -5111,8 +4979,8 @@
             "parentId": "63444638-e30f-4914-3abe-dcf882b331d0",
             "childIndex": 81,
             "point": [
-              4184.6,
-              4094.6
+              3198.88,
+              2850.74
             ],
             "size": [
               443.47,
@@ -5141,8 +5009,8 @@
             "parentId": "63444638-e30f-4914-3abe-dcf882b331d0",
             "childIndex": 82,
             "point": [
-              4202.288029901629,
-              4117.436123406271
+              3216.57,
+              2873.58
             ],
             "rotation": 0,
             "text": "ReviewCard",
@@ -5163,8 +5031,8 @@
             "parentId": "63444638-e30f-4914-3abe-dcf882b331d0",
             "childIndex": 83,
             "point": [
-              5382.29,
-              2018.9
+              6227.68,
+              1973.24
             ],
             "size": [
               689.26,
@@ -5193,8 +5061,8 @@
             "parentId": "63444638-e30f-4914-3abe-dcf882b331d0",
             "childIndex": 84,
             "point": [
-              5708.82,
-              1935.98
+              6554.21,
+              1890.32
             ],
             "rotation": 0,
             "text": "app",
@@ -5215,8 +5083,8 @@
             "parentId": "63444638-e30f-4914-3abe-dcf882b331d0",
             "childIndex": 85,
             "point": [
-              5439.14,
-              2046.97
+              6284.53,
+              2001.31
             ],
             "size": [
               581.95,
@@ -5245,8 +5113,8 @@
             "parentId": "63444638-e30f-4914-3abe-dcf882b331d0",
             "childIndex": 86,
             "point": [
-              5424.28,
-              2045.23
+              6269.67,
+              1999.57
             ],
             "rotation": 0,
             "text": "Header",
@@ -5267,8 +5135,8 @@
             "parentId": "63444638-e30f-4914-3abe-dcf882b331d0",
             "childIndex": 87,
             "point": [
-              5423.76,
-              2131.29
+              6269.15,
+              2085.63
             ],
             "size": [
               610.63,
@@ -5297,8 +5165,8 @@
             "parentId": "63444638-e30f-4914-3abe-dcf882b331d0",
             "childIndex": 88,
             "point": [
-              5447.49,
-              2137.2
+              6292.88,
+              2091.54
             ],
             "rotation": 0,
             "text": "NavBar",
@@ -5319,8 +5187,8 @@
             "parentId": "63444638-e30f-4914-3abe-dcf882b331d0",
             "childIndex": 89,
             "point": [
-              5401.58,
-              2203.45
+              6246.97,
+              2157.79
             ],
             "size": [
               654.99,
@@ -5349,8 +5217,8 @@
             "parentId": "63444638-e30f-4914-3abe-dcf882b331d0",
             "childIndex": 90,
             "point": [
-              5680.01,
-              2141.19
+              6525.4,
+              2095.53
             ],
             "rotation": 0,
             "text": "ReviewPage",
@@ -5371,8 +5239,8 @@
             "parentId": "63444638-e30f-4914-3abe-dcf882b331d0",
             "childIndex": 91,
             "point": [
-              5903,
-              2138.62
+              6748.39,
+              2092.96
             ],
             "rotation": 0,
             "text": "ProfilePage",
@@ -5393,8 +5261,8 @@
             "parentId": "63444638-e30f-4914-3abe-dcf882b331d0",
             "childIndex": 92,
             "point": [
-              5430.88,
-              2208.79
+              6276.27,
+              2163.13
             ],
             "rotation": 0,
             "text": "main",
@@ -5415,8 +5283,8 @@
             "parentId": "63444638-e30f-4914-3abe-dcf882b331d0",
             "childIndex": 93,
             "point": [
-              5434.72,
-              2280.87
+              6280.11,
+              2235.21
             ],
             "size": [
               594.5,
@@ -5445,17 +5313,17 @@
             "parentId": "63444638-e30f-4914-3abe-dcf882b331d0",
             "childIndex": 94,
             "point": [
-              5481.89,
-              2307.88
+              6408.07,
+              2258.6
             ],
             "rotation": 0,
-            "text": "SingleReview",
+            "text": "SingleReviewCard\n ",
             "style": {
               "color": "lightGray",
               "size": "medium",
               "isFilled": false,
               "dash": "draw",
-              "scale": 0.4504287063615571,
+              "scale": 1,
               "font": "script",
               "textAlign": "start"
             }
@@ -5586,28 +5454,6 @@
               "textAlign": "start"
             }
           },
-          "3436dfc3-34ac-42b1-307e-291dec876453": {
-            "id": "3436dfc3-34ac-42b1-307e-291dec876453",
-            "type": "text",
-            "name": "Text",
-            "parentId": "63444638-e30f-4914-3abe-dcf882b331d0",
-            "childIndex": 99,
-            "point": [
-              3681.35,
-              1399.82
-            ],
-            "rotation": 0,
-            "text": "    \"GET /api/categories\": {\n ",
-            "style": {
-              "color": "lightGray",
-              "size": "medium",
-              "isFilled": false,
-              "dash": "draw",
-              "scale": 0.7334030421345259,
-              "font": "script",
-              "textAlign": "start"
-            }
-          },
           "800511f4-9a4d-4f71-259a-5b034bd26e4c": {
             "id": "800511f4-9a4d-4f71-259a-5b034bd26e4c",
             "type": "text",
@@ -5615,17 +5461,17 @@
             "parentId": "63444638-e30f-4914-3abe-dcf882b331d0",
             "childIndex": 100,
             "point": [
-              4508.85,
-              2220.89
+              5155.52,
+              2060.05
             ],
-            "rotation": 0,
+            "rotation": 6.207826674595477,
             "text": "    \"GET /api/reviews/:review_id/comments\": {\n ",
             "style": {
               "color": "lightGray",
               "size": "medium",
               "isFilled": false,
               "dash": "draw",
-              "scale": 0.5400124815872557,
+              "scale": 0.8061262033318873,
               "font": "script",
               "textAlign": "start"
             }
@@ -5659,8 +5505,8 @@
             "parentId": "63444638-e30f-4914-3abe-dcf882b331d0",
             "childIndex": 102,
             "point": [
-              6337.98,
-              859.15
+              7051.34,
+              549.41
             ],
             "rotation": 0,
             "text": "FRONT END INTIAL GUIDE\n \n \n4. View a list of all reviews\n5. View an individual review\n6. View a list of comments associated with a review\n7. Vote on a review\n8. Post a new comment to an existing review\n9. View a separate page for each category with a list of related reviews\n10. Sort reviews\n11. Delete comments\n12. Error handling\n \n1. App Component: This is the root component that holds the main layout and manages the overall state of the application. This component should include the following state hooks:\n    * User: To hold the logged in user's information\n    * Reviews: To hold a list of all reviews\n    * Comments: To hold a list of comments for a selected review\n    * Categories: To hold a list of all categories\n    * Selected Review: To hold the currently selected review\n    * Selected Category: To hold the currently selected category\n    * SortBy: To hold the selected sort criteria\n    * Error: To hold any error messages that occur during API calls\n2. Routing: The application should use react-router for routing and have the following routes:\n    * /: This is the main route that displays a list of all reviews. The ReviewList component should be displayed here.\n    * /review/:review_id: This route displays an individual review. The Review component should be displayed here.\n    * /category/:category_name: This route displays a list of all reviews for a selected category. The ReviewList component should be displayed here.\n3. ReviewList Component: This component should display a list of all reviews and allow users to sort the list. The data for this component should be sourced from the App component's state.\n4. Review Component: This component should display an individual review and a list of comments associated with the review. The data for this component should be sourced from the App component's state.\n5. CommentList Component: This component should display a list of comments for a selected review. The data for this component should be sourced from the App component's state.\n6. Vote Component: This component should allow users to vote on a review. The API call to cast a vote should be made from the App component.\n7. NewComment Component: This component should allow users to post a new comment to a review. The API call to post a new comment should be made from the App component.\n8. Category Component: This component should display a list of all categories. The data for this component should be sourced from the App component's state.\n9. Error Component: This component should display any error messages that occur during API calls. The data for this component should be sourced from the App component's state.\n10. Sorting: Sorting should be implemented in the ReviewList component and should update the App component's state when a sort criteria is selected.\n11. Deletion: Deleting comments should be implemented in the CommentList component and should make the API call to delete the comment from the App component.\n12. Error handling: Error handling should be implemented in the App component and should display the error message in the Error component.\n ",
@@ -5736,28 +5582,6 @@
               "isFilled": false,
               "dash": "draw",
               "scale": 0.7347091894872225,
-              "font": "script",
-              "textAlign": "start"
-            }
-          },
-          "46c61b05-8bec-46dc-364d-b34e4cebb55d": {
-            "id": "46c61b05-8bec-46dc-364d-b34e4cebb55d",
-            "type": "text",
-            "name": "Text",
-            "parentId": "63444638-e30f-4914-3abe-dcf882b331d0",
-            "childIndex": 1,
-            "point": [
-              3221.28,
-              2015.27
-            ],
-            "rotation": 0,
-            "text": "* Selected Category: To hold the currently selected category",
-            "style": {
-              "color": "lightGray",
-              "size": "medium",
-              "isFilled": false,
-              "dash": "draw",
-              "scale": 0.7452251946066697,
               "font": "script",
               "textAlign": "start"
             }
@@ -5945,8 +5769,8 @@
             "parentId": "63444638-e30f-4914-3abe-dcf882b331d0",
             "childIndex": 114,
             "point": [
-              3812.41,
-              3864.5
+              2826.69,
+              2620.64
             ],
             "size": [
               287.76,
@@ -5975,8 +5799,8 @@
             "parentId": "63444638-e30f-4914-3abe-dcf882b331d0",
             "childIndex": 115,
             "point": [
-              3839.39,
-              3926.68
+              2853.67,
+              2682.82
             ],
             "radius": [
               37.764092783688056,
@@ -6005,8 +5829,8 @@
             "parentId": "63444638-e30f-4914-3abe-dcf882b331d0",
             "childIndex": 116,
             "point": [
-              3960.54,
-              3920.46
+              2974.82,
+              2676.6
             ],
             "radius": [
               38.448051881871606,
@@ -6035,8 +5859,8 @@
             "parentId": "63444638-e30f-4914-3abe-dcf882b331d0",
             "childIndex": 117,
             "point": [
-              3838.11,
-              4023.39
+              2852.39,
+              2779.53
             ],
             "radius": [
               38.448051881871606,
@@ -6065,8 +5889,8 @@
             "parentId": "63444638-e30f-4914-3abe-dcf882b331d0",
             "childIndex": 118,
             "point": [
-              3957.78,
-              4020.92
+              2972.06,
+              2777.06
             ],
             "radius": [
               38.448051881871606,
@@ -6095,8 +5919,8 @@
             "parentId": "63444638-e30f-4914-3abe-dcf882b331d0",
             "childIndex": 119,
             "point": [
-              3843.22,
-              4146.91
+              2857.5,
+              2903.05
             ],
             "radius": [
               38.448051881871606,
@@ -6125,8 +5949,8 @@
             "parentId": "63444638-e30f-4914-3abe-dcf882b331d0",
             "childIndex": 120,
             "point": [
-              3971.62,
-              4140.19
+              2985.9,
+              2896.33
             ],
             "radius": [
               38.448051881871606,
@@ -6155,8 +5979,8 @@
             "parentId": "63444638-e30f-4914-3abe-dcf882b331d0",
             "childIndex": 121,
             "point": [
-              3848.02,
-              3871.87
+              2862.3,
+              2628.01
             ],
             "rotation": 0,
             "text": "filter bar",
@@ -6177,8 +6001,8 @@
             "parentId": "63444638-e30f-4914-3abe-dcf882b331d0",
             "childIndex": 122,
             "point": [
-              5465.43,
-              2406.13
+              6310.82,
+              2360.47
             ],
             "size": [
               536.39,
@@ -6207,8 +6031,8 @@
             "parentId": "63444638-e30f-4914-3abe-dcf882b331d0",
             "childIndex": 123,
             "point": [
-              5500.68,
-              2414.68
+              6346.07,
+              2369.02
             ],
             "rotation": 0,
             "text": "CommentsSection",
@@ -6229,8 +6053,8 @@
             "parentId": "63444638-e30f-4914-3abe-dcf882b331d0",
             "childIndex": 124,
             "point": [
-              4871.58,
-              2438.67
+              5345.86,
+              2244.77
             ],
             "rotation": 0,
             "text": "CommentsSection",
@@ -6273,8 +6097,8 @@
             "parentId": "63444638-e30f-4914-3abe-dcf882b331d0",
             "childIndex": 126,
             "point": [
-              5053.34,
-              2707.66
+              5527.62,
+              2513.76
             ],
             "size": [
               326.15,
@@ -6303,8 +6127,8 @@
             "parentId": "63444638-e30f-4914-3abe-dcf882b331d0",
             "childIndex": 127,
             "point": [
-              5097.94,
-              2732.53
+              5572.22,
+              2538.63
             ],
             "rotation": 0,
             "text": "CommentCard",
@@ -6325,9 +6149,8 @@
             "parentId": "63444638-e30f-4914-3abe-dcf882b331d0",
             "childIndex": 128,
             "point": [
-              5070.804574360154,
-              2598.9131706580897,
-              0.5
+              5545.09,
+              2405.01
             ],
             "rotation": 0,
             "bend": -0.0000031954450781290664,
@@ -6385,8 +6208,8 @@
             "parentId": "63444638-e30f-4914-3abe-dcf882b331d0",
             "childIndex": 129,
             "point": [
-              5073.6977028391575,
-              2835.101692073526
+              5547.98,
+              2641.2
             ],
             "rotation": 0,
             "text": "state holds how much the vote changes by",
@@ -6407,8 +6230,8 @@
             "parentId": "63444638-e30f-4914-3abe-dcf882b331d0",
             "childIndex": 130,
             "point": [
-              4437.34,
-              2831.06
+              4911.62,
+              2637.16
             ],
             "rotation": 0,
             "text": "state holding whatever the comment body is ",
@@ -6429,8 +6252,8 @@
             "parentId": "63444638-e30f-4914-3abe-dcf882b331d0",
             "childIndex": 131,
             "point": [
-              5606.43,
-              2463.7
+              6451.82,
+              2418.04
             ],
             "size": [
               366.71,
@@ -6459,8 +6282,8 @@
             "parentId": "63444638-e30f-4914-3abe-dcf882b331d0",
             "childIndex": 132,
             "point": [
-              5642.9,
-              2460.52
+              6488.29,
+              2414.86
             ],
             "rotation": 0,
             "text": "comment adder",
@@ -6481,8 +6304,8 @@
             "parentId": "63444638-e30f-4914-3abe-dcf882b331d0",
             "childIndex": 133,
             "point": [
-              5484.16,
-              2462.2
+              6329.55,
+              2416.54
             ],
             "size": [
               107.53,
@@ -6511,8 +6334,8 @@
             "parentId": "63444638-e30f-4914-3abe-dcf882b331d0",
             "childIndex": 134,
             "point": [
-              5517.42,
-              2515.24
+              6362.81,
+              2469.58
             ],
             "size": [
               424.1,
@@ -6541,8 +6364,8 @@
             "parentId": "63444638-e30f-4914-3abe-dcf882b331d0",
             "childIndex": 135,
             "point": [
-              5523.48,
-              2573.99
+              6368.87,
+              2528.33
             ],
             "size": [
               415.49,
@@ -6571,8 +6394,8 @@
             "parentId": "63444638-e30f-4914-3abe-dcf882b331d0",
             "childIndex": 136,
             "point": [
-              5634.98,
-              2511.12
+              6480.37,
+              2465.46
             ],
             "rotation": 0,
             "text": "commentcard",
@@ -6593,8 +6416,8 @@
             "parentId": "63444638-e30f-4914-3abe-dcf882b331d0",
             "childIndex": 137,
             "point": [
-              5637.97,
-              2570.09
+              6483.36,
+              2524.43
             ],
             "rotation": 0,
             "text": "commentcard",
@@ -6615,8 +6438,8 @@
             "parentId": "63444638-e30f-4914-3abe-dcf882b331d0",
             "childIndex": 138,
             "point": [
-              4455.68,
-              2876.2
+              4929.96,
+              2682.3
             ],
             "rotation": 0,
             "text": "set the above state to update list of comments",
@@ -6626,6 +6449,117 @@
               "isFilled": false,
               "dash": "draw",
               "scale": 0.6693662753382812,
+              "font": "script",
+              "textAlign": "start"
+            }
+          },
+          "745e9e4d-63b1-4612-2733-87113fd1ebf9": {
+            "id": "745e9e4d-63b1-4612-2733-87113fd1ebf9",
+            "type": "arrow",
+            "name": "Arrow",
+            "parentId": "63444638-e30f-4914-3abe-dcf882b331d0",
+            "childIndex": 139,
+            "point": [
+              5065.883919805904,
+              1735.2090762000635,
+              0.5
+            ],
+            "rotation": 0,
+            "bend": 0.000005869083226657553,
+            "handles": {
+              "start": {
+                "id": "start",
+                "index": 0,
+                "point": [
+                  0,
+                  0
+                ],
+                "canBind": true
+              },
+              "end": {
+                "id": "end",
+                "index": 1,
+                "point": [
+                  377.37,
+                  88.14
+                ],
+                "canBind": true
+              },
+              "bend": {
+                "id": "bend",
+                "index": 2,
+                "point": [
+                  188.69,
+                  44.07
+                ]
+              }
+            },
+            "decorations": {
+              "end": "arrow"
+            },
+            "style": {
+              "color": "lightGray",
+              "size": "medium",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 1,
+              "font": "script",
+              "textAlign": "start"
+            },
+            "label": "",
+            "labelPoint": [
+              0.5,
+              0.5
+            ]
+          },
+          "44203c50-b4ec-4bd1-3423-b0bc50f0c1d5": {
+            "id": "44203c50-b4ec-4bd1-3423-b0bc50f0c1d5",
+            "type": "rectangle",
+            "name": "Rectangle",
+            "parentId": "63444638-e30f-4914-3abe-dcf882b331d0",
+            "childIndex": 140,
+            "point": [
+              5485.33,
+              1790.64
+            ],
+            "size": [
+              445.86,
+              91.29
+            ],
+            "rotation": 0,
+            "style": {
+              "color": "lightGray",
+              "size": "medium",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 1,
+              "font": "script",
+              "textAlign": "start"
+            },
+            "label": "",
+            "labelPoint": [
+              0.5,
+              0.5
+            ]
+          },
+          "86723de8-1830-402d-1d3d-26990ee72f1b": {
+            "id": "86723de8-1830-402d-1d3d-26990ee72f1b",
+            "type": "text",
+            "name": "Text",
+            "parentId": "63444638-e30f-4914-3abe-dcf882b331d0",
+            "childIndex": 141,
+            "point": [
+              5579.61606734228,
+              1813.9988020324377
+            ],
+            "rotation": 0,
+            "text": "single review card",
+            "style": {
+              "color": "lightGray",
+              "size": "medium",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 1,
               "font": "script",
               "textAlign": "start"
             }
@@ -6680,18 +6614,6 @@
             ],
             "distance": 16
           },
-          "867e5b54-ada5-4be8-1d79-d6f7c977a8e2": {
-            "id": "867e5b54-ada5-4be8-1d79-d6f7c977a8e2",
-            "type": "arrow",
-            "fromId": "d9c7c939-8262-482b-15cf-ed4f75f00ae8",
-            "toId": "5c246b88-fecd-4a67-2043-f8060e5d5634",
-            "handleId": "end",
-            "point": [
-              0.37,
-              0.58
-            ],
-            "distance": 16
-          },
           "962e08ce-d77d-4f01-3929-abcba552241b": {
             "id": "962e08ce-d77d-4f01-3929-abcba552241b",
             "type": "arrow",
@@ -6713,18 +6635,6 @@
             "point": [
               0.74,
               0.58
-            ],
-            "distance": 16
-          },
-          "d9e6996b-190b-4aed-3c1a-c855fb02bed1": {
-            "id": "d9e6996b-190b-4aed-3c1a-c855fb02bed1",
-            "type": "arrow",
-            "fromId": "d9c7c939-8262-482b-15cf-ed4f75f00ae8",
-            "toId": "f85ad31e-6be1-47be-107b-1a50953d9b71",
-            "handleId": "start",
-            "point": [
-              0.34,
-              0.45
             ],
             "distance": 16
           },
@@ -6799,6 +6709,30 @@
               0.51
             ],
             "distance": 16
+          },
+          "dac440b4-b74a-4af8-1c8c-0962cdd53277": {
+            "id": "dac440b4-b74a-4af8-1c8c-0962cdd53277",
+            "type": "arrow",
+            "fromId": "dc043101-0bec-4c06-0075-ffdeb5135405",
+            "toId": "2749fbcd-d32f-495b-096d-1db32507d11a",
+            "handleId": "start",
+            "point": [
+              0.67,
+              0.45
+            ],
+            "distance": 16
+          },
+          "c68bf298-034e-41c8-11ef-991c2286b2bc": {
+            "id": "c68bf298-034e-41c8-11ef-991c2286b2bc",
+            "type": "arrow",
+            "fromId": "dc043101-0bec-4c06-0075-ffdeb5135405",
+            "toId": "ff1caa41-df8c-4cc8-0f12-fed675301a43",
+            "handleId": "end",
+            "point": [
+              0.61,
+              0.51
+            ],
+            "distance": 8
           }
         }
       }

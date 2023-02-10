@@ -11,3 +11,15 @@ export const getAllCategories = () => {
     return categories.map((categoryObj) => categoryObj.slug); //["strategy", "hidden-roles", "dexterity", "push-your-luck", "roll-and-write", "deck-building", "engine-building"]
   });
 };
+
+export const getReviewsByParams = (category, sort_by, order) => {
+  return ApiRequest.get(`/reviews`, {
+    params: {
+      category: category,
+      sort_by: sort_by,
+      order: order === "ASC" ? "ASC" : order === "DESC" ? "DESC" : "ASC",
+    },
+  }).then(({ data: { reviews } }) => {
+    return reviews;
+  });
+};

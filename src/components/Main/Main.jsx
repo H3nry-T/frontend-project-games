@@ -7,7 +7,7 @@ const Main = () => {
   return (
     <main className={styles.main}>
       <Routes>
-        <Route path="/" element={<ReviewsPage />} />
+        <Route path="/*" element={<ReviewsPage />} />
         <Route path="/reviews/:review_id" element={<SingleReviewPage />} />
       </Routes>
     </main>
