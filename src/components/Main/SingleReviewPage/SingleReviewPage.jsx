@@ -4,7 +4,7 @@ import { getReviewById } from "../../../utils/axiosSingleReview";
 import CommentsSection from "./CommentsSection/CommentsSection";
 import SingleReviewCard from "./SingleReviewCard/SingleReviewCard";
 
-const SingleReviewPage = (props) => {
+const SingleReviewPage = () => {
   const [singleReview, setSingleReview] = useState({});
   const { review_id } = useParams();
   const date = new Date(Date.parse(singleReview.created_at));
