@@ -23,7 +23,9 @@ function CommentAdder(props) {
         }}
       >
         <strong style={{ display: "block", fontSize: "large" }}>
-          {parseInt(comment_count) + addCommentCount}
+          {comment_count
+            ? parseInt(comment_count) + addCommentCount
+            : "Loading..."}
         </strong>
         <p>comments</p>
       </div>

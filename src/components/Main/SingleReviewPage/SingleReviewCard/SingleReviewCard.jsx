@@ -46,7 +46,6 @@ const SingleReviewCard = ({ date, singleReview }) => {
   return (
     <section className={styles.singleReview}>
       <SingleReviewCardInfo
-        toLocaleDateString={date.toLocaleDateString}
         singleReview={singleReview}
         date={date}
       ></SingleReviewCardInfo>
