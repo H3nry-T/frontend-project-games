@@ -5,7 +5,7 @@ import styles from "../../SingleReviewPage.module.css";
 import CommentCardVotes from "./CommentCardVotes";
 import DeleteCommentButton from "./DeleteCommentButton";
 
-const CommentCard = ({ commentObj }) => {
+const CommentCard = ({ commentObj, setCommentDeleteClickCount }) => {
   const comment_id = commentObj.comment_id;
   const [voteChange, setVoteChange] = useState(0);
   const date = new Date(Date.parse(commentObj.created_at));
@@ -59,7 +59,10 @@ const CommentCard = ({ commentObj }) => {
         ></CommentCardVotes>
 
         {commentObj.author === loggedInUser.username ? (
-          <DeleteCommentButton comment_id={comment_id} />
+          <DeleteCommentButton
+            comment_id={comment_id}
+            setCommentDeleteClickCount={setCommentDeleteClickCount}
+          />
         ) : (
           ""
         )}
