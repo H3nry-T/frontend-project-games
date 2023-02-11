@@ -6563,6 +6563,84 @@
               "font": "script",
               "textAlign": "start"
             }
+          },
+          "a35c549a-35bd-4211-1fc4-85002b3999a4": {
+            "id": "a35c549a-35bd-4211-1fc4-85002b3999a4",
+            "type": "draw",
+            "name": "Draw",
+            "parentId": "63444638-e30f-4914-3abe-dcf882b331d0",
+            "childIndex": 142,
+            "point": [
+              3965.7,
+              3221.41
+            ],
+            "rotation": 0,
+            "style": {
+              "color": "lightGray",
+              "size": "medium",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 1,
+              "font": "script",
+              "textAlign": "start"
+            },
+            "points": [
+              [
+                0,
+                0,
+                0.5
+              ],
+              [
+                0,
+                0,
+                0.5
+              ]
+            ],
+            "isComplete": true
+          },
+          "9c56b3ea-8325-43e5-2414-71c31d3fb499": {
+            "id": "9c56b3ea-8325-43e5-2414-71c31d3fb499",
+            "type": "text",
+            "name": "Text",
+            "parentId": "63444638-e30f-4914-3abe-dcf882b331d0",
+            "childIndex": 143,
+            "point": [
+              3988.853223947894,
+              3241.6305106048103
+            ],
+            "rotation": 0,
+            "text": "change the url\ntake the query from url\nre-render based on the query\n ",
+            "style": {
+              "color": "lightGray",
+              "size": "medium",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 1,
+              "font": "script",
+              "textAlign": "start"
+            }
+          },
+          "a71f1903-df94-4866-041c-928619a04125": {
+            "id": "a71f1903-df94-4866-041c-928619a04125",
+            "type": "text",
+            "name": "Text",
+            "parentId": "63444638-e30f-4914-3abe-dcf882b331d0",
+            "childIndex": 144,
+            "point": [
+              3931.57,
+              3504.97
+            ],
+            "rotation": 0,
+            "text": "home : \"/\"\ncombinedQueries: \"q=value\" + \"q=value\"\nconcat combined queries with & \nfinal query: home + \"reviews?\"  + combinedQueries.join(\"&\"); ",
+            "style": {
+              "color": "lightGray",
+              "size": "medium",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 1,
+              "font": "script",
+              "textAlign": "start"
+            }
           }
         },
         "bindings": {

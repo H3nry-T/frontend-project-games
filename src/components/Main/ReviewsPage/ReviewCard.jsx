@@ -16,7 +16,9 @@ export default function ReviewCard({ reviewObj }) {
         draggable="false"
         alt="board game"
       ></img>
-      <p className={styles.strong}>{reviewObj.title}</p>
+      <p className={styles.strong} style={{ width: "15%" }}>
+        {reviewObj.title}
+      </p>
       <p>{reviewObj.category} game</p>
       <p>{reviewObj.votes} votes</p>
       <p>{reviewObj.comment_count} comments</p>

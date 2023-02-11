@@ -50,3 +50,7 @@ export const postCommentByReviewId = (review_id, username, body) => {
     }
   );
 };
+
+export const deleteCommentById = (comment_id) => {
+  return ApiRequest.delete(`/comments/${comment_id}`);
+};

@@ -6,7 +6,6 @@ import styles from "../SingleReviewPage.module.css";
 function CommentAdder(props) {
   const { comment_count, review_id, setCommentsByReviewId } = props;
   const [commentBody, setCommentBody] = useState("");
-  const [addCommentCount, setAddCommentCount] = useState(0);
   const [conditionalClass, setConditionalClass] = useState("");
   const {
     loggedInUser: { username },
@@ -23,7 +22,7 @@ function CommentAdder(props) {
         }}
       >
         <strong style={{ display: "block", fontSize: "large" }}>
-          {parseInt(comment_count) + addCommentCount}
+          {comment_count ? parseInt(props.reviewCommentCount) : "Loading..."}
         </strong>
         <p>comments</p>
       </div>
@@ -65,7 +64,6 @@ function CommentAdder(props) {
               ...currCommentsByReviewId,
             ]);
             setCommentBody("");
-            setAddCommentCount((currCommentCount) => currCommentCount + 1);
             setConditionalClass("");
             setIsFormSubmitting(false);
           })

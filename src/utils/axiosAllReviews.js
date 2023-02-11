@@ -17,7 +17,7 @@ export const getReviewsByParams = (category, sort_by, order) => {
     params: {
       category: category,
       sort_by: sort_by,
-      order: order === "ASC" ? "ASC" : order === "DESC" ? "DESC" : "ASC",
+      order: order,
     },
   }).then(({ data: { reviews } }) => {
     return reviews;

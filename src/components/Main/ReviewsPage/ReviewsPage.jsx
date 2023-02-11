@@ -3,7 +3,7 @@ import { Route, Routes } from "react-router-dom";
 import { getAllReviews } from "../../../utils/axiosAllReviews";
 import AllReviews from "./AllReviews";
 import AllReviewsByParams from "./AllReviewsByParams";
-import FilterBar from "./FilterBar";
+import FilterBar from "./FilterBar/FilterBar";
 import styles from "./ReviewsPage.module.css";
 
 const ReviewsPage = () => {
@@ -33,7 +33,7 @@ const ReviewsPage = () => {
               element={<AllReviews allReviews={allReviews} />}
             ></Route>
             <Route
-              path="/*"
+              path="/reviews?"
               element={<AllReviewsByParams allReviews={allReviews} />}
             ></Route>
           </Routes>
