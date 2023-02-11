@@ -59,7 +59,7 @@ const CommentCard = ({ commentObj }) => {
         ></CommentCardVotes>
 
         {commentObj.author === loggedInUser.username ? (
-          <DeleteCommentButton></DeleteCommentButton>
+          <DeleteCommentButton comment_id={comment_id} />
         ) : (
           ""
         )}
