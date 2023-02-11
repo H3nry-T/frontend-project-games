@@ -1,18 +1,24 @@
-import React from "react";
+import React, { useState } from "react";
 import { deleteCommentById } from "../../../../../utils/axiosSingleReview";
 import styles from "../../SingleReviewPage.module.css";
 
 function DeleteCommentButton({ comment_id, setCommentDeleteClickCount }) {
+  const [isLoading, setIsLoading] = useState(false);
   //ON CLICK delete the comment by comment id
-  function onClickHandler() {
+  const onClickHandler = () => {
+    setIsLoading(true);
+
     deleteCommentById(comment_id).then(() => {
-      setCommentDeleteClickCount((currState) => {
-        return currState + 1;
-      });
+      setCommentDeleteClickCount((currState) => currState + 1);
     });
-  }
+  };
+
   return (
-    <button className={`${styles.deleteButton}`} onClick={onClickHandler}>
+    <button
+      className={`${styles.deleteButton}`}
+      onClick={onClickHandler}
+      disabled={isLoading}
+    >
       🗑
     </button>
   );

@@ -14,7 +14,6 @@ const CommentsSection = ({ review_id, singleReview }) => {
     });
   }, [review_id, commentDeleteClickCount]);
 
-  console.log(reviewCommentCount);
   useEffect(() => {
     setReviewCommentCount(commentsByReviewId.length);
   }, [commentsByReviewId]);
