@@ -3,17 +3,8 @@
   justify-content: space-between;
   padding: 1rem;
   border-radius: 2rem;
-  box-shadow: 0 1px 9px 1px;
-  background-color: #87897c;
+  /* box-shadow: 0 1px 9px 1px; */
   margin-bottom: 1rem;
-}
-
-.reviewFilterAside {
-  flex: 1;
-  background-color: #565a5b;
-  border-radius: 2rem;
-  margin-right: 1rem;
-  box-shadow: 0px 1px 9px 1px black;
 }
 
 .reviewListAside {
@@ -22,7 +13,7 @@
 .reviewCard {
   transition: ease-in-out 400ms;
   border-radius: 2rem;
-  background-color: #565a5b;
+  background: linear-gradient(to left, #03001c, #301e67);
   margin: 0 0 1rem 1rem;
   padding: 1rem;
   color: white;
@@ -49,22 +40,6 @@
   width: 120px;
   height: 120px;
   object-fit: contain;
-}
-
-.reviewFilterButton {
-  transition: ease-in-out 400ms;
-  background-color: #87897c;
-  color: white;
-  margin: 0.5rem;
-  box-shadow: 1px 1px 3px 0px black;
-}
-
-.reviewFilterButton:hover {
-  transition: ease-in-out 400ms;
-  box-shadow: 0px 1px 9px 1px black;
-  background-color: #433237;
-  scale: calc(1.05);
-  cursor: pointer;
 }
 
 .highlight {

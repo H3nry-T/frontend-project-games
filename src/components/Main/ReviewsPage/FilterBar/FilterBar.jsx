@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import { useLocation, useNavigate } from "react-router-dom";
 import { getAllCategories } from "../../../../utils/axiosAllReviews";
-import styles from "../ReviewsPage.module.css";
+import styles from "./FilterBar.module.css";
 import CategoryFilterButton from "./FilterButtons/CategoryFilterButton";
 import OrderFilterButton from "./FilterButtons/OrderFilterButton";
 import SortByFilterButton from "./FilterButtons/SortByFilterButton";

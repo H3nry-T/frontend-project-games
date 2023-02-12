@@ -3,7 +3,7 @@
   max-width: 80%;
   max-width: 700px;
   border-radius: 2rem;
-  background-color: #565a5b;
+  background: linear-gradient(to left, #03001c, #1b142f);
   margin: 1rem auto;
   padding: 1rem;
   color: white;
@@ -14,7 +14,7 @@
   max-width: 80%;
   max-width: 700px;
   border-radius: 2rem;
-  background-color: #565a5b;
+  background: linear-gradient(to left, #03001c, #1b142f);
   margin: 1rem auto;
   padding: 1rem;
   color: white;
@@ -29,7 +29,7 @@
 
 .smallWrapper {
   padding: 0.4rem;
-  background-color: #bfbb9c;
+  background: linear-gradient(to right, #434250, #2d186d);
   color: black;
   margin: 1rem;
   border-radius: 1rem;
@@ -48,7 +48,7 @@ span {
   max-height: 2rem;
   padding: 0;
   margin: 0;
-  background-color: #547166;
+  background-color: black;
   color: white;
 }
 
@@ -62,7 +62,7 @@ span {
 }
 
 .commentCard {
-  background-color: #547166;
+  background: linear-gradient(to right, #03001c, #301e67);
   margin: 1rem;
   border-radius: 2rem;
   box-shadow: 0px 1px 9px 0px black;
@@ -107,6 +107,7 @@ span {
   padding: 1rem;
   font-size: medium;
   font-weight: 800;
+  background: linear-gradient(to left, #434250, #2d186d);
 }
 
 .commentBody {
@@ -116,7 +117,7 @@ span {
 
 .commentAdderForm {
   border-radius: 2rem;
-  background-color: #bfbb9c;
+  background: linear-gradient(to right, #434250, #2d186d);
   box-shadow: 0px 1px 9px 0px black;
   padding: 0.6rem;
 }
@@ -128,7 +129,8 @@ span {
 .commentAdderButton {
   border-radius: 1rem;
   color: white;
-  background-color: #547166;
+  background-color: black;
+  box-shadow: 1px 1px 9px 1px black;
   font-size: large;
   display: flex;
   align-items: center;

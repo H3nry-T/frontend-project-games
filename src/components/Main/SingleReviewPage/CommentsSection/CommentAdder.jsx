@@ -36,6 +36,7 @@ function CommentAdder(props) {
       >
         <input
           className={styles.commentAdderInput}
+          style={{ color: "black" }}
           type="text"
           onChange={handleOnChange()}
           value={commentBody}

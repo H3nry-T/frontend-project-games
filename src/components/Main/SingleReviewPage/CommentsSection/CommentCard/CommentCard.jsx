@@ -39,7 +39,6 @@ const CommentCard = ({ commentObj, setCommentDeleteClickCount }) => {
     <article key={commentObj.comment_id} className={styles.commentCard}>
       <section
         className={`${styles.flexContainer} ${styles.spaceBetween} ${styles.commentHeader}`}
-        style={{ marginBottom: "1rem", backgroundColor: "#bfbb9c" }}
       >
         <span>{commentObj.author}'s comment</span>{" "}
         <span>at {date.toLocaleDateString()}</span>

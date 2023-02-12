@@ -9,7 +9,7 @@ const SingleReviewPage = () => {
   const [singleReview, setSingleReview] = useState({});
   const { review_id } = useParams();
   const date = new Date(Date.parse(singleReview.created_at));
-  const { setGlobalError } = useContext(UserContext);
+  const { setGlobalError, userIsLoggedIn } = useContext(UserContext);
   const navigate = useNavigate();
   useEffect(() => {
     getReviewById(review_id)
@@ -22,6 +22,10 @@ const SingleReviewPage = () => {
         navigate("/error");
       });
   }, [review_id]);
+
+  if (!userIsLoggedIn) {
+    return <h1>Log in to view this page!</h1>;
+  }
 
   return (
     <>
