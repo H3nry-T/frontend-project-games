@@ -26,6 +26,7 @@ const ProfilesPage = () => {
               "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRayBko6Fh0dBJFOKGKGSDDuH6QeW1RrEKI3-qkTU_Y&s"
             }
             className={styles.profileImg}
+            alt="profile"
           />
           <div className={styles.container}>
             <button className={styles.profilePageButtons} onClick={LogUserIn()}>
