@@ -1,5 +1,6 @@
-import React, { useEffect, useState } from "react";
+import React, { useContext, useEffect, useState } from "react";
 import { useLocation } from "react-router-dom";
+import { UserContext } from "../../../context/userContext";
 import { getReviewsByParams } from "../../../utils/axiosAllReviews";
 import ReviewCard from "./ReviewCard";
 import styles from "./ReviewsPage.module.css";
@@ -12,6 +13,8 @@ const AllReviews = () => {
   const selectedOrder = queryParams.get("order");
   const [allReviewsByQueryParams, setAllReviewsByQueryParams] = useState([]);
   const [loading, setLoading] = useState(true);
+
+  const { userIsLoggedIn } = useContext(UserContext);
 
   useEffect(() => {
     getReviewsByParams(selectedCategory, selectedSortBy, selectedOrder).then(
@@ -28,6 +31,10 @@ const AllReviews = () => {
         Loading...
       </h1>
     );
+  }
+
+  if (!userIsLoggedIn) {
+    return <h1>Please log in to access this page</h1>;
   }
 
   return (
