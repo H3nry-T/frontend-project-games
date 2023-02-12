@@ -26,6 +26,7 @@ export default function FilterBar({ allReviews, setAllReviews }) {
   const url = "/";
   const [addQuery, setAddQuery] = useState([]);
 
+  const [firstTimeRender, setFirstTimeRender] = useState(true);
   //GIVE ALL CATEGORY OPTIONS
   useEffect(() => {
     getAllCategories().then((categoriesFromApi) => {
@@ -41,9 +42,16 @@ export default function FilterBar({ allReviews, setAllReviews }) {
 
   //IF BUTTON PRESSED CHANGE URL
   useEffect(() => {
-    const combinedQuery = addQuery.join("&");
-    const endpoint = url + "reviews?" + combinedQuery;
-    navigate(endpoint);
+    setFirstTimeRender(false);
+    //BLOCKS DEFAULT PATH FROM BEING OVERWRITTEN TO /reviews
+    //POTENTIALLY ADD check : && userIsLoggedIn to the if statement incase the user is not logged in
+    if (!firstTimeRender) {
+      const combinedQuery = addQuery.join("&");
+      const endpoint =
+        addQuery.length === 0 ? "/reviews" : url + "reviews?" + combinedQuery;
+      console.log(endpoint);
+      navigate(endpoint);
+    }
   }, [addQuery, url, navigate]);
 
   return (

@@ -4,14 +4,20 @@ import React from "react";
 export const UserContext = createContext();
 
 export const UserContextProvider = ({ children }) => {
-  const [loggedInUser, setLoggedInUser] = useState({
-    username: "weegembump",
-    avatar_url:
-      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRayBko6Fh0dBJFOKGKGSDDuH6QeW1RrEKI3-qkTU_Y&s",
-  });
-
+  const [loggedInUser, setLoggedInUser] = useState({});
+  const [userIsLoggedIn, setUserIsLoggedIn] = useState(false);
+  const [globalError, setGlobalError] = useState({});
   return (
-    <UserContext.Provider value={{ loggedInUser, setLoggedInUser }}>
+    <UserContext.Provider
+      value={{
+        loggedInUser,
+        setLoggedInUser,
+        userIsLoggedIn,
+        setUserIsLoggedIn,
+        globalError,
+        setGlobalError,
+      }}
+    >
       {children}
     </UserContext.Provider>
   );

@@ -2,9 +2,10 @@ import React, { useEffect, useState } from "react";
 import { Route, Routes } from "react-router-dom";
 import { getAllReviews } from "../../../utils/axiosAllReviews";
 import AllReviews from "./AllReviews";
-import AllReviewsByParams from "./AllReviewsByParams";
 import FilterBar from "./FilterBar/FilterBar";
 import styles from "./ReviewsPage.module.css";
+
+import Error from "../Error/Error";
 
 const ReviewsPage = () => {
   const [allReviews, setAllReviews] = useState([]);
@@ -29,13 +30,11 @@ const ReviewsPage = () => {
           ></FilterBar>
           <Routes>
             <Route
-              path="/"
+              path="/reviews?"
               element={<AllReviews allReviews={allReviews} />}
             ></Route>
-            <Route
-              path="/reviews?"
-              element={<AllReviewsByParams allReviews={allReviews} />}
-            ></Route>
+            <Route path="/error" element={<Error />} />
+            <Route path="/*" element={<h1>404 Not Found</h1>}></Route>
           </Routes>
         </section>
       )}
