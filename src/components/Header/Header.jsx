@@ -9,7 +9,9 @@ const Header = () => {
 
   return (
     <div className={styles.header}>
-      <h1 onClick={navigateAllReviews()}>nc-games</h1>
+      <h1 onClick={navigateAllReviews()} className={styles.h1}>
+        nc-games
+      </h1>
       {!userIsLoggedIn ? null : (
         <div className={styles.profile} onClick={navigateLogIn()}>
           <p style={{ marginRight: "1rem" }}>{loggedInUser.username}</p>
