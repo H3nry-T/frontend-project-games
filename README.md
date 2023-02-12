@@ -24,10 +24,13 @@
 </ol>
 
 <h2>How to see the source code yourself:</h2>
-<p>Type the following into your terminal:</p>
+<h3>Type the following into your terminal:</h3>
 <code>git clone https://github.com/H3nry-T/frontend-project-nc-games.git</code>
+<br></br>
+<code>cd frontend-project-nc-games</code>
+<br></br>
 <code style="display: block;">npm install</code>
-
+<br></br>
 <p>Your package.json file in the root should have these dependencies:</p>
 <pre>"dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
@@ -43,6 +46,7 @@
     "web-vitals": "^2.1.4"
   },</pre>
 
-<h2>Minimum version of React:</h2>
+<h2>Minimum version of:</h2>
 
-<p>react@18.2.0</p>
+<p>React: v18.2.0</p>
+<p>Node: v18.12.1</p>
