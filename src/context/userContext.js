@@ -6,6 +6,7 @@ export const UserContext = createContext();
 export const UserContextProvider = ({ children }) => {
   const [loggedInUser, setLoggedInUser] = useState({});
   const [userIsLoggedIn, setUserIsLoggedIn] = useState(false);
+  const [globalError, setGlobalError] = useState({});
   return (
     <UserContext.Provider
       value={{
@@ -13,6 +14,8 @@ export const UserContextProvider = ({ children }) => {
         setLoggedInUser,
         userIsLoggedIn,
         setUserIsLoggedIn,
+        globalError,
+        setGlobalError,
       }}
     >
       {children}

@@ -22,4 +22,5 @@ export const getReviewsByParams = (category, sort_by, order) => {
   }).then(({ data: { reviews } }) => {
     return reviews;
   });
+  // .catch((error) => console.log(error));
 };
