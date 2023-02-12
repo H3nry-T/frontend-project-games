@@ -34,7 +34,7 @@ const ReviewsPage = () => {
               element={<AllReviews allReviews={allReviews} />}
             ></Route>
             <Route path="/error" element={<Error />} />
-            <Route path="/*" element={<h1>404 Not Found</h1>}></Route>
+            <Route path="/*" element={<Error />}></Route>
           </Routes>
         </section>
       )}
