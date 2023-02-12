@@ -9,7 +9,7 @@ const SingleReviewPage = () => {
   const [singleReview, setSingleReview] = useState({});
   const { review_id } = useParams();
   const date = new Date(Date.parse(singleReview.created_at));
-  const { globalError, setGlobalError } = useContext(UserContext);
+  const { setGlobalError } = useContext(UserContext);
   const navigate = useNavigate();
   useEffect(() => {
     getReviewById(review_id)
