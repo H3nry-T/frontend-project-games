@@ -1,0 +1,63 @@
+.reviewFilterAside {
+  flex: 1;
+  border-radius: 2rem;
+  margin-right: 1rem;
+  box-shadow: 0px 1px 9px 1px black;
+  background: linear-gradient(to left, #03001c, #1b142f);
+}
+
+.reviewCard:hover {
+  transition: ease-in-out 400ms;
+  background-color: #433237;
+  scale: calc(1.01);
+  cursor: pointer;
+}
+
+.strong {
+  font-weight: 900;
+}
+
+.reviewFilterButton {
+  transition: ease-in-out 400ms;
+  background: linear-gradient(to right, #434250, #2d186d);
+  color: white;
+  margin: 0.5rem;
+  box-shadow: 1px 1px 3px 0px black;
+}
+
+.reviewFilterButton:hover {
+  transition: ease-in-out 400ms;
+  box-shadow: 0px 1px 9px 1px black;
+  background-color: #433237;
+  scale: calc(1.05);
+  cursor: pointer;
+}
+
+.highlight {
+  background: linear-gradient(to right, #434250, #2d186d);
+  border-radius: 2rem 2rem 0 0;
+  color: white;
+}
+
+.loading {
+  text-align: center;
+  font-weight: 1000;
+}
+
+.indentButton {
+  transition: ease-in-out 400ms;
+  box-shadow: inset 0px 1px 9px 1px black;
+  background-color: #433237;
+}
+
+.indentButton:hover {
+  transition: ease-in-out 400ms;
+  box-shadow: inset 0px 1px 9px 1px black;
+  background-color: #433237;
+}
+
+.alignItemsCenter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
