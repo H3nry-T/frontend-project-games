@@ -2,6 +2,7 @@ import React, { useContext, useEffect, useState } from "react";
 import { useLocation, useNavigate } from "react-router-dom";
 import { UserContext } from "../../../context/userContext";
 import { getReviewsByParams } from "../../../utils/axiosAllReviews";
+import Error from "../Error/Error";
 import ReviewCard from "./ReviewCard";
 import styles from "./ReviewsPage.module.css";
 
@@ -16,7 +17,7 @@ const AllReviews = () => {
 
   const { userIsLoggedIn } = useContext(UserContext);
   const navigate = useNavigate();
-  const { setGlobalError } = useContext(UserContext);
+  const { globalError, setGlobalError } = useContext(UserContext);
 
   useEffect(() => {
     getReviewsByParams(selectedCategory, selectedSortBy, selectedOrder)
@@ -25,6 +26,7 @@ const AllReviews = () => {
         setLoading(false);
       })
       .catch((error) => {
+        setLoading(false);
         console.log(error.response);
         setGlobalError(error.response.data.error);
         navigate("/error");
@@ -39,8 +41,24 @@ const AllReviews = () => {
     );
   }
 
+  if (Object.keys(globalError).length > 0) {
+    return <Error />;
+  }
+
   if (!userIsLoggedIn) {
-    return <h1>Please log in to access this page</h1>;
+    return (
+      <div
+        style={{
+          display: "flex",
+          flexDirection: "column",
+          justifyContent: "center",
+          height: "100vh",
+          width: "100vw",
+        }}
+      >
+        <h1>Please log in to access this page</h1>
+      </div>
+    );
   }
 
   return (
