@@ -5,6 +5,8 @@ import AllReviews from "./AllReviews";
 import FilterBar from "./FilterBar/FilterBar";
 import styles from "./ReviewsPage.module.css";
 
+import Error from "../Error/Error";
+
 const ReviewsPage = () => {
   const [allReviews, setAllReviews] = useState([]);
   const [loading, setLoading] = useState(true);
@@ -31,6 +33,7 @@ const ReviewsPage = () => {
               path="/reviews?"
               element={<AllReviews allReviews={allReviews} />}
             ></Route>
+            <Route path="/error" element={<Error />} />
             <Route path="/*" element={<h1>404 Not Found</h1>}></Route>
           </Routes>
         </section>
