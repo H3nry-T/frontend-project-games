@@ -25,7 +25,7 @@
 
 <h2>How to see the source code yourself:</h2>
 <p>Type the following into your terminal:</p>
-<code>git clone https://github.com/H3nry-T/frontend-project-games.git</code>
+<code>git clone https://github.com/H3nry-T/frontend-project-nc-games.git</code>
 <code style="display: block;">npm install</code>
 
 <p>Your package.json file in the root should have these dependencies:</p>
