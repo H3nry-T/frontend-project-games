@@ -29,13 +29,10 @@ const ReviewsPage = () => {
           ></FilterBar>
           <Routes>
             <Route
-              path="/"
-              element={<AllReviews allReviews={allReviews} />}
-            ></Route>
-            <Route
               path="/reviews?"
               element={<AllReviewsByParams allReviews={allReviews} />}
             ></Route>
+            <Route path="/*" element={<h1>404 Not Found</h1>}></Route>
           </Routes>
         </section>
       )}
