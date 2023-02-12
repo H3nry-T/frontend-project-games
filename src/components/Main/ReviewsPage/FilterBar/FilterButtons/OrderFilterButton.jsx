@@ -1,5 +1,5 @@
 import React from "react";
-import styles from "../../ReviewsPage.module.css";
+import styles from "../FilterBar.module.css";
 
 function OrderFilterButton(props) {
   return (
