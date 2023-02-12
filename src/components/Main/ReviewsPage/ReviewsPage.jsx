@@ -30,7 +30,7 @@ const ReviewsPage = () => {
           <Routes>
             <Route
               path="/reviews?"
-              element={<AllReviewsByParams allReviews={allReviews} />}
+              element={<AllReviews allReviews={allReviews} />}
             ></Route>
             <Route path="/*" element={<h1>404 Not Found</h1>}></Route>
           </Routes>
