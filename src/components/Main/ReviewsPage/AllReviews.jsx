@@ -1,5 +1,5 @@
 import React, { useContext, useEffect, useState } from "react";
-import { useLocation } from "react-router-dom";
+import { useLocation, useNavigate } from "react-router-dom";
 import { UserContext } from "../../../context/userContext";
 import { getReviewsByParams } from "../../../utils/axiosAllReviews";
 import ReviewCard from "./ReviewCard";
@@ -15,14 +15,20 @@ const AllReviews = () => {
   const [loading, setLoading] = useState(true);
 
   const { userIsLoggedIn } = useContext(UserContext);
+  const navigate = useNavigate();
+  const { setGlobalError } = useContext(UserContext);
 
   useEffect(() => {
-    getReviewsByParams(selectedCategory, selectedSortBy, selectedOrder).then(
-      (allReviewsByQueryParamsFromApi) => {
+    getReviewsByParams(selectedCategory, selectedSortBy, selectedOrder)
+      .then((allReviewsByQueryParamsFromApi) => {
         setAllReviewsByQueryParams(allReviewsByQueryParamsFromApi);
         setLoading(false);
-      }
-    );
+      })
+      .catch((error) => {
+        console.log(error.response);
+        setGlobalError(error.response.data.error);
+        navigate("/error");
+      });
   }, [selectedCategory, selectedSortBy, selectedOrder]);
 
   if (loading) {
