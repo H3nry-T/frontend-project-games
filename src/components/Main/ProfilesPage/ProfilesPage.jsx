@@ -5,7 +5,7 @@ import { useNavigate } from "react-router-dom";
 
 const ProfilesPage = () => {
   const navigate = useNavigate();
-  const { setLoggedInUser, userIsLoggedIn, setUserIsLoggedIn } =
+  const { setLoggedInUser, userIsLoggedIn, setUserIsLoggedIn, setGlobalError } =
     useContext(UserContext);
   return (
     <>
@@ -26,6 +26,8 @@ const ProfilesPage = () => {
 
   function LogUserIn() {
     return () => {
+      setGlobalError({});
+
       setUserIsLoggedIn(true);
       setLoggedInUser({
         username: "weegembump",
