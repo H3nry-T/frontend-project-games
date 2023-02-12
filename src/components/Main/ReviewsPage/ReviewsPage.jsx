@@ -2,7 +2,6 @@ import React, { useEffect, useState } from "react";
 import { Route, Routes } from "react-router-dom";
 import { getAllReviews } from "../../../utils/axiosAllReviews";
 import AllReviews from "./AllReviews";
-import AllReviewsByParams from "./AllReviewsByParams";
 import FilterBar from "./FilterBar/FilterBar";
 import styles from "./ReviewsPage.module.css";
 
