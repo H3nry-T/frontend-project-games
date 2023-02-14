@@ -31,6 +31,8 @@
 <br></br>
 <code style="display: block;">npm install</code>
 <br></br>
+<code>npm start</code>
+<br></br>
 <p>Your package.json file in the root should have these dependencies:</p>
 <pre>"dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
