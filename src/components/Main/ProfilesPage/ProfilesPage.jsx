@@ -16,20 +16,38 @@ const ProfilesPage = () => {
   } = useContext(UserContext);
 
   const [allUsers, setAllUsers] = useState([]);
+  const [loading, setLoading] = useState(true);
 
   useEffect(() => {
     getAllUsers()
       .then((usersFromApi) => {
         setAllUsers(usersFromApi);
+        setLoading(false);
       })
       .catch((err) => {
         console.error(err);
+        setLoading(false);
       });
   }, []);
 
-  //{username: "tickle122", name: "Tom Tickle", avatar_url: "https://vignette.wikia.nocookie.net/mrmen/images/d…r-Tickle-9a.png/revision/latest?cb=20180127221953"}
+  //usersFromApi = {username: "tickle122", name: "Tom Tickle", avatar_url: "https://vignette.wikia.nocookie.net/mrmen/images/d…r-Tickle-9a.png/revision/latest?cb=20180127221953"}
 
-  //TODO: MAP OVER MULTIPLE USERS
+  if (loading) {
+    return (
+      <div
+        style={{
+          display: "flex",
+          justifyContent: "center",
+          alignItems: "center",
+          height: "100%",
+          width: "100%",
+        }}
+      >
+        <h1>Loading...</h1>
+      </div>
+    );
+  }
+
   return (
     <>
       <section>
